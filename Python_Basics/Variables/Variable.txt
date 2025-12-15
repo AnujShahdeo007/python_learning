@@ -1,0 +1,227 @@
+Variables:
+
+What is a Variable?
+
+Definition
+
+A variable in Python is a name that refers to a value stored in memory.
+Variables are used to store data, so that it can be reused, updated, and manipulated during program execution.
+
+x = 10
+
+	•	x → variable name
+	•	= → assignment operator
+	•	10 → value stored in memory
+
+Why Do We Need Variables?
+
+Variables help us to:
+    Store data
+    Reuse values
+    Make programs dynamic
+    Avoid hard-coding values
+    Improve readability and maintainability
+
+Without Variable
+print(10 + 10)
+
+With Variable
+num = 10
+print(num + num)
+
+Rules for Naming Variables
+
+Python has strict rules for variable names.
+
+Valid Rules
+	1.	Must start with a letter (a-z, A-Z) or underscore (_)
+	2.	Cannot start with a number
+	3.	Can contain letters, numbers, underscore
+	4.	Cannot use Python keywords
+	5.	Variable names are case-sensitive
+
+Valid Examples
+
+name = "Anuj"
+_age = 30
+salary2025 = 80000
+is_active = True
+
+Invalid Examples
+
+2name = "Anuj"      # starts with number
+total-sum = 100    # hyphen not allowed
+class = 10         # keyword
+
+Case Sensitivity in Variables
+
+Python treats uppercase and lowercase differently.
+
+age = 25
+Age = 30
+
+print(age)  # 25
+print(Age)  # 30
+age and Age are two different variables.
+
+
+
+Variable Assignment
+
+Basic Assignment
+x = 5
+
+Assigning Different Data Types
+
+name = "Python"
+price = 99.99
+is_valid = True
+
+Python automatically detects the type.
+
+
+Dynamic Typing in Python
+
+Python is dynamically typed, meaning:
+You do not declare data types explicitly.
+
+x = 10
+x = "Hello"
+x = 3.14
+
+Same variable x holds different types at different times.
+
+Type Checking (type())
+
+To check the data type of a variable:
+
+x = 100
+print(type(x))
+
+
+name = "Python"
+print(type(name))   # str
+
+price = 99.9
+print(type(price))  # float
+
+
+Multiple Variable Assignment
+
+Assign Same Value to Multiple Variables
+
+a = b = c = 10
+
+All variables store the same value.
+
+
+
+Assign Different Values in One Line
+
+x, y, z = 1, 2, 3
+
+Swap Variables (Python Special Feature)
+
+a = 5
+b = 10
+
+a, b = b, a
+
+No temporary variable required 
+
+Variable Reassignment
+
+Variables can be updated anytime.
+
+count = 1
+count = count + 1
+print(count)  # 2
+
+Shorthand Assignment
+
+count += 1
+count -= 1
+count *= 2
+count /= 2
+
+Constants in Python (Important Concept)
+
+Python does not have true constants, but we follow a naming convention.
+
+PI = 3.14159
+MAX_LIMIT = 100
+
+Written in UPPERCASE to indicate constant.
+
+Variable Scope (Basic Intro)
+
+Local Variable
+
+Defined inside a function.
+
+def show():
+    x = 10
+    print(x)
+
+
+Global Variable
+
+Defined outside a function.
+
+
+x = 20
+
+def show():
+    print(x)
+
+
+Deleting a Variable
+Use del keyword.
+x = 10
+del x
+
+print(x)  # Error
+
+Common Beginner Mistakes
+
+Using variable before assignment
+Using keyword as variable
+Wrong case usage
+Confusing = with ==
+
+if x = 10:   # ❌
+
+correct 
+
+if x == 10:
+
+
+Real-World Example
+
+Student Marks Program
+
+name = "Anuj"
+math_marks = 85
+science_marks = 90
+
+total = math_marks + science_marks
+average = total / 2
+
+print("Student:", name)
+print("Total Marks:", total)
+print("Average:", average)
+
+
+Interview Questions 
+
+	1.	What is a variable?
+	2.	Is Python statically or dynamically typed?
+	3.	Can a variable change its data type?
+	4.	What are naming rules?
+	5.	Difference between local and global variables?
+
+
+
+
+
+
