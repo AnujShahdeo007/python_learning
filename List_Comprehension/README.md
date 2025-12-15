@@ -85,4 +85,3 @@ from itertools import chain
 flat = list(chain.from_iterable(nested))
 ```
 
--- End Expanded Comprehensions --

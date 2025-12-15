@@ -154,7 +154,3 @@ print(sh)  # inner lists shared -> also shows 9
 print(dd)  # unaffected
 ```
 
-- Additional exercises
- - Implement a simple priority queue wrapper using `heapq` that supports updating priorities.
-
--- End --

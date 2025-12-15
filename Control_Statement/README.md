@@ -291,8 +291,4 @@ python3 example.py
 
 **References & further reading:** Python docs — "The Python Language Reference": Control Flow Tools, and tutorials on `for`, `while`, and `if` statements.
 
----
-Notes prepared for learning and quick reference. If you'd like, I can:
-- convert these into a `README.md` with nicer formatting,
-- create runnable example `.py` files under a `Control_Statement/examples` folder, or
-- add more exercises with unit tests.
+

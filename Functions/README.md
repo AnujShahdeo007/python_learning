@@ -143,4 +143,3 @@ funcs = [lambda x, n=n: x+n for n in range(3)]
       return fib(n-1) + fib(n-2)
   ```
 
--- End Expanded Functions --

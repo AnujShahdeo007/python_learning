@@ -154,4 +154,3 @@ class Square(Shape):
         return self.side * self.side
 ```
 
--- End Expanded OOP --
