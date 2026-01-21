@@ -1,0 +1,172 @@
+Data Structures
+------------------
+A data structure is way of oranizing,storing and managing data in program. 
+
+Problem without DS 
+
+1. Code become slow 
+2. searcing data is difficult 
+3. maganaing data is messy 
+
+List
+------
+A list is an ordered, mutable (changable) collection that can store multiple values, even of difrenet data types.
+
+num=[10,20,30]
+mixed=[1,"abc",True,3.5]
+nested=[[1,2],[3,5]]
+
+Key properties
+
+Ordered: Keeps position (index)
+
+Indexed: start from 0
+
+Mutable: you can update/add/remove items 
+
+Allow Duplicates: [1,1,2] is valid 
+
+Can nest lists: list inside list 
+
+indexing 
+
+Indexing means accessing a single elements from a list using its position
+
+Negative Indexing 
+--------------------
+
+Negative indexing starts from end of the list  ( Always start with -1 )
+
+
+List Slicing 
+------------
+
+slicing is used to extarct multiple elements from a list.
+
+Syntax: list[start:end:step]
+
+
+Q. Why end index is excluded? 
+
+---------------------------------------------------------------------------------------------------------------------------------------
+List : Adding Elements 
+
+There are 3 main ways :
+
+1. append() - Rule: Append() always adds ONE objects whatever that object is.
+2. extend()
+3. insert()
+
+features        Append              extend                  insert 
+Adds            1 element           many elements           1 element 
+Position        end                 end                     Specific index 
+Iterable        No                  Yes                     No
+Performance     Fastest             Fast                    Slow 
+Real Use        logs,loops          batch merge             ordering 
+
+
+Removing Elements 
+--------------------
+1. remove(value)
+   - You give a value 
+   - Python searches from left to right 
+   - Remove the first occurence 
+   - If value not - Error 
+2. pop ()
+    - Remove item at give index 
+    - Return the removed item 
+    - Default index is -1 ( last item )
+    - If index invalid : IndexError 
+
+3. del ( Delete by Index or Slice )
+    - del - keyword, not a list method 
+    - it can delete:
+        - single element 
+        - range of element (slice)
+        - even the whole list variable
+
+4. clear() - Remove eveerything (empty list)
+    - Empties the same list object 
+    - List become []
+
+Operations      Removed By          Removes how many        Return          Error cases 
+remove(x)        value              first match only         No             ValueError
+pop(i)           index              one item.                Yes.           IndexError if out of range 
+del a[i].        index/slice.       one or many              No             Index Error if out of range 
+clear().         none               all                      No             No 
+
+
+List & Operations and Built In functions  :
+
+1. Basic Operators = (+,*,in,not in )
+
+  + (Concatenation) -> Join two lists 
+    - + creates a new list by combining two lists 
+    - It does not modify the original list 
+    - Works only with 2 lists 
+
+  * (Repetation) - Repeat list items N times 
+    - lst * n - Repeats the list n items and create a new list 
+    lst=[1,2]
+    print(lst*3)
+    [1,2,1,2,1,2]
+
+  in (membership) - Is item present?
+
+    - x in lst checks if x exists in list 
+    - Return True/False 
+    - For Lists, it does a liner search (O(n))
+    lst=[10,20,30]
+    print(20 in lst) ---  True 
+    print(40 in lst) --- false 
+
+   not in - Is item not present?
+   lst=[1,2,3]
+   print(5 not in lst)
+
+2. Core built ins : ( len, max, min, sum )
+
+    len - Length/Count of elements 
+        - len() returns the number of elements in a list 
+        - it does not care about values, only count 
+
+        lst= [10,20,30]
+        len(lst) =3 
+    Important Note:
+        - Counts elements, not Memory 
+        - Nested list counts as one element 
+        lst= [1,2,[3,4]]
+        len(lst)- 3 
+
+    max - Largest Element 
+        - Return the maximum element 
+        works on :
+            - numbers 
+            - Strings 
+    min - Samallest Element 
+        - Opposite of max()
+        - Same rules 
+        min([10,20,30]) ---> 10 
+        min(["apple","bat"]) - 'apple'
+        words=["a","bbb","cccc"]
+        min(words,key=len) --> 'a'
+    
+    sum() - Total of numeric elements 
+        - Adds all numeric elelemnts 
+        - Oprtional- second argument - startting value 
+        sum([1,2,3])
+        sum([1,2,3],10)
+
+3. Sorting : ( sort, sorted,key,reverse)
+4. Common list methods : (count,index,copy)
+5. Iteration utilities : (enumerate,zip)
+6. functional : (any,all,map,filter)
+7. Conversion & useful patterns : ( list(),join,flatten,dedupe)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Tuple
+Set
+Dictionary
+String operations
