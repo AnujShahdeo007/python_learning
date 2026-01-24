@@ -158,7 +158,123 @@ List & Operations and Built In functions  :
         sum([1,2,3],10)
 
 3. Sorting : ( sort, sorted,key,reverse)
+    sort - Sorting means arranging elelemnts in specific order.
+         - Ascending 
+         - Descesning 
+         - Custom order ( length,last digit, date)
+        sort() - 
+        nums=[3,1,2]
+        nums.sort() # [1,2,3,]
+
+     sorted - Create a list 
+        - Original list remain unchanged
+        - Return a new sorted list 
+        nums=[3,1,2]
+        nums_sorted=sorted(nums)
+
+     reverse=True - Descending order 
+        - Default sorting is ascending 
+        - reverse=True flip the order 
+     nums=[5,1,4,2]
+     nums.sort(reverse=True)
+     print(nums)
+     [5,4,2,1]
+
+     nums=[5,1,4,2]
+     print(sorted(nums,reverse=True))
+     [5,4,2,1]
+
+    Key - Custom sorting 
+
+        - key decides ON what basis sorting happens
+        - It takes a function 
+        - That function runs on each element 
+        - Python sorts based on returned value 
+    words=["apple","kiwi","banana","fig"]
+    words.sort(key=len)
+    ["fig"]
+
+    data=[(1,3),(4,1),(2,2)]
+
+
 4. Common list methods : (count,index,copy)
+    - count() - How many times an element appers 
+     - count() tells how many times a value exists in list 
+    - It does not modify the list 
+    Return an interger
+    list.count(value)
+nums=[1,2,3,4,5,5,5,5]
+print(nums.count(5))
+
+names=["ram","ram","aaa","bbbb"]
+print(names.count("ram"))
+
+nums=[1,2,2,3,3,3,3,3,3,4,5,5,5,5]
+count=0
+for x in nums:
+    if x==5:
+        count += 1
+print(count)
+
+max_count=0
+max_element=None 
+
+for i in range(len(nums)):
+    count=0
+    for j in range(len(nums)):
+        if nums[i] == nums[j]:
+            count += 1
+    if count > max_count:
+        max_count=count
+        max_element=nums[i]
+print(max_element)
+
+
+
+
+Index(): Find Position of an elelemnt
+
+    - index() returns the position (index) of the first occurence.
+    - if element not found - Error 
+    - index always start with 0 
+
+    list.index(value) 
+
+    nums=[10,20,30,30,40]
+    print(nums.index(30))
+    2 
+
+    print(nums.index(50))
+
+    valueError : 50 is not in list 
+
+Copy - Shallow copy of List 
+
+    - copy() creates a new list 
+    - Data is same, but memeory is diffrent
+    - Used to avoid accidental data change 
+
+    new_list=old_list.copy()
+
+    a=[1,2,3]
+    b=a.copy()
+
+    b.append(4)
+
+    print(a)
+    print(b)
+
+    --------------
+
+    Without using copy 
+
+    a=[1,2,3]
+    b=A
+    b.append(4)
+    print(a)
+    print(b)
+
+
 5. Iteration utilities : (enumerate,zip)
 6. functional : (any,all,map,filter)
 7. Conversion & useful patterns : ( list(),join,flatten,dedupe)
@@ -170,3 +286,135 @@ Tuple
 Set
 Dictionary
 String operations
+
+---------------------------------------------------
+index 0     1   2   3
+Nums  5     1   4   2
+
+Rule: Compare left number with right number 
+If left>right---> Swap 
+
+ROUND -1 
+
+We compare all neighbors 
+
+Step 1 : Compare index 0 & 1 
+
+5  1   4   2
+-  -
+
+5>1--> true ---> Swap 
+
+[1  5   4   2]
+
+Step: compare index 1 & 2 
+
+1  5   4   2
+   -   - 
+
+5 > 4 --> true ---> Swap 
+
+[1  4   5   2]
+
+
+Step 3 : Compare 2 & 3 
+
+1  4   5   2
+       -   - 
+5>2 -- True --- Swap 
+
+[1  4   2   5 ]
+
+-> End of round 1 
+-> Biggest number 5 moved to the end 
+
+
+ROUND 2 (i=1)
+
+ignore last element ( Already sorted)
+
+step 1: comapre index 0 & 1 
+
+1   4   2   5
+-   -
+
+1 > 4 --> False ---> No Swap 
+
+[1  4   2   5]
+
+Step 2 : Comapre index 1 & 2 
+
+1   4   2   5
+    -   -
+
+4 > 2 --- True --  Swap 
+
+[1  2   4   5]
+
+End of Round 2 
+
+[1  2   4   5]
+
+
+ROUND 3 : (i=2)
+
+Only First two elements need check 
+
+Step 1 ; Comapre index 0 & 1 
+
+1   2   4   5
+-   -
+
+1 > 2 --- False ---> no Swap 
+
+
+[1   2   4   5]
+
+
+ROUND 4 ( i=3 )
+
+No Comaparision requied 
+
+
+
+Final Result [1   2   4   5]
+
+
+
+why n-i-1 
+
+
+--> After each round, elements at the risght end are fixed 
+
+round 1 [?  ?   ?   5]
+
+round 2 [?  ?   4   5]
+
+round 3 [?  2   4   5].  ------> We stop checking those fixed position 
+
+
+Comapre neighbors ----> Swap ----> Reapt 
+Big number move it right 
+
+Samll number move left 
+
+
+1. Bubble Sort 
+
+2. Selection sort 
+
+3. Insertion sort 
+
+4. Merge sort 
+
+5. Quick sort 
+
+6. Heap sort 
+
+
+lst=[[1,2,3],[4,5,6],[7,8,9]]
+print(lst[0:1][0])
+
+
+
+
