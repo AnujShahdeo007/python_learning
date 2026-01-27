@@ -198,6 +198,8 @@ List & Operations and Built In functions  :
 
 
 4. Common list methods : (count,index,copy)
+
+list.count(value).  ------Return integer
     - count() - How many times an element appers 
      - count() tells how many times a value exists in list 
     - It does not modify the list 
@@ -276,6 +278,28 @@ Copy - Shallow copy of List
 
 
 5. Iteration utilities : (enumerate,zip)
+
+    - enumerate() gives index and value togatrher 
+    - cleaner,readbale 
+    - Returns pairs (index,element)
+
+    enumerate(Iterable,start=0)
+
+    for i,name in enumerate(names):
+    print(i,name)
+
+    Zip() - Combine elements from multiple iterables 
+    - Return pairs (or tuple)
+    - Stops at shortest iterbale 
+
+    zip(iterable1,iterable2,.........)
+
+    names=["Amit","Neha","Ravi"]
+    marks=[85,90,78]
+
+    for name,mark in zip(names,marks):
+        print(name,mark)
+
 6. functional : (any,all,map,filter)
 7. Conversion & useful patterns : ( list(),join,flatten,dedupe)
 
