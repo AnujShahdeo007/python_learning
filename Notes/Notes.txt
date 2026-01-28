@@ -301,7 +301,92 @@ Copy - Shallow copy of List
         print(name,mark)
 
 6. functional : (any,all,map,filter)
+any () - Check if at least one is true 
+    - any() return true if any one element is truthy
+    - Return False only if all elelmts are False 
+    - Work with Iterable (List,tuple)
+
+    nums=[0,0,5,0]
+    print(any(nums)) ---> true
+    nums=[0,False,None] ----> False 
+    any(iterable)
+
+all() - Check if eveything is true 
+    all() retrun true only if all elemts are truthy 
+    Retrun False if any one element is false 
+
+    all(iterable)
+
+    nums=[1,2,3]
+    print(all(nums)) ----True 
+
+    nums=[1,0,3]
+    print(all(nums)) -----> false 
+
+    fields=["name","email",""]
+    print(all(fields))
+
+
+map() - Apply Function to every element 
+
+    - map() applies a function to each elelemnt
+    - retrun a map object (covert to list to get output)
+    - Used Transormataion 
+
+
+    map(function,iterable)
+
+    nums=[1,2,3,4]
+    result=map(lambda x:x*x,nums)
+
+    Note: Return Map --- To see the output we need convert it to List 
+
+filter() - Select Elements based on condition 
+
+    - filter() keeps elelemts where condition is True
+    - Used for filtering/removing unwanted data 
+    
+    filter(function,iterable)
+
+    nums=[1,2,3,4,5,6,7,8,9]
+    even=filter(lambda x:x%2==0,nums)
+    print(list(even))
+
+    map()            and        Filter()
+    Transfrorm                  select 
+    same as input               samller or equal 
+    Not requied                 Required 
+    Modify data                 Remove Data 
+
+
+
+
 7. Conversion & useful patterns : ( list(),join,flatten,dedupe)
+
+    list() - Conversion pattern 
+    - convert an iterable into list 
+    - common Sources - map,filter,zip,range,generator experssion 
+
+    name=["Amit","Neha"]
+    marks=[80,90]
+    pairs=list(zip(name,marks))
+    print(pairs)
+
+Join() - Join itrable of string ( String Joining pattern)
+    - Join iterable of trings into single string 
+
+    words=["Python","is","awesome"]
+    senetence=" ".join(words)
+    print(senetence)
+
+Flatten- Nested Data Pattern 
+    - Convert nested list ---- Flat List 
+
+    matrix=[[1,2],[3,4],[5,6]]
+    
+
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
