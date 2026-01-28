@@ -306,10 +306,24 @@ any () - Check if at least one is true
     - Return False only if all elelmts are False 
     - Work with Iterable (List,tuple)
 
-    nums=[0,0,5,0]
+    nums=[0,4,0,0]
     print(any(nums)) ---> true
     nums=[0,False,None] ----> False 
     any(iterable)
+
+    one True    True 
+    All False   False 
+    Empty List  False 
+
+    any([5,0,"",None,5])
+    5 -> True Stop 
+    0 -> False 
+    ""-> False 
+    None-> False 
+    5 -> True STOP 
+
+    login_attemps=[False,False,False ]
+    any([login_attemps]) ---->False 
 
 all() - Check if eveything is true 
     all() retrun true only if all elemts are truthy 
@@ -326,8 +340,20 @@ all() - Check if eveything is true
     fields=["name","email",""]
     print(all(fields))
 
+    All true ---True 
+    One False --- False 
+    Empty list -- True 
 
-map() - Apply Function to every element 
+    all(x>0 for x in [1,2,0,4])
+
+    1>0 --True 
+    2>0 ---True 
+    0>0 ---False ----STOP 
+
+
+
+
+map() - Apply Function to every element (Lazy Evalution)
 
     - map() applies a function to each elelemnt
     - retrun a map object (covert to list to get output)
@@ -359,6 +385,12 @@ filter() - Select Elements based on condition
     Modify data                 Remove Data 
 
 
+ any()- Existence check 
+ all()- Universal check 
+ map()- transformation 
+ filter- selection 
+ ---- All are lazy,efficient and expressive 
+ 
 
 
 7. Conversion & useful patterns : ( list(),join,flatten,dedupe)
@@ -383,7 +415,7 @@ Flatten- Nested Data Pattern
     - Convert nested list ---- Flat List 
 
     matrix=[[1,2],[3,4],[5,6]]
-    
+
 
 
 
