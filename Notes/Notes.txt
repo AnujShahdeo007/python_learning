@@ -390,7 +390,7 @@ filter() - Select Elements based on condition
  map()- transformation 
  filter- selection 
  ---- All are lazy,efficient and expressive 
- 
+
 
 
 7. Conversion & useful patterns : ( list(),join,flatten,dedupe)
@@ -410,20 +410,352 @@ Join() - Join itrable of string ( String Joining pattern)
     words=["Python","is","awesome"]
     senetence=" ".join(words)
     print(senetence)
+"seperator".join(iterable of string)
 
 Flatten- Nested Data Pattern 
     - Convert nested list ---- Flat List 
+    - Converting nested structures into single level 
+
+    2D list --> 1D 
+    3D lis---> 1D 
+    N-D list--> 1D (recursive)
+    matrix=[[1,2],[3,4],[5,6]]
+    [1,2,3,4,5,6]
+
+    Used:
+    - api
+    - Spark/Pandas 
+    - JSon 
+
+    1st Pattern
+    -----------
 
     matrix=[[1,2],[3,4],[5,6]]
 
+    flat - [1,2,3,4,5,6]
+    flat=[x for row in matrix for x in row ]
+
+    flat=[]
+    for row in matrix:
+        for x in row:
+            flat.append(x)
+
+
+cube=[
+    [[1,2],[3,4]],
+    [[5,6],[7,8]]
+]
+
+flat=[]
+for layer in cube:
+    for row in layer:
+        for x in row:
+            flat.append(x)
+
+flat=[x for layer in cube for row in layer for x in row]
+
+data=[1,[2,[3,4],5],[[6]],7]
+data=[1,2,3,4,5,6,7]
+
+    Pattern -2 
+    -----------
+
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+a=[1,2,3]
+a.append(4) 
+
+a=[1,2,3]
+a.extend([4,5])
+print()
+
+matrix=[[1,2],[3,4]]
+
+flat=[]
+for row in matrix:
+    flat.append(row)
+print(flat)
+
+Using Extend 
+----------
+flat=[]
+for row in matrix:
+    flat.extend(row)
+print(flat)
+
+
+Pattern -3 
+-----------
+
+Use itertools.chain 
+--> Take multiple iterables and chain them one after anothe.
+
+Itertools.chain is a tool that links multiple iterables togather and lets you iterate over them as if they were one sequence.
+
+Module: itertools
+Nature: iterator(lazy,memeory-efficient)
+
+from itertools import chain 
+a=[1,2]
+b=[3,4]
+c=[5,6]
+result=chain(a,b,c)
+print(list(result))
+
+------> Chain did not create a new list immediatly it yieled eleents on by one 
+
+
+chain() vs chain.from_iterable
+-------------------------------
+
+chain() - Use when you already have separte iterables 
+
+chain.from_iterable - Use when you have one iterable that contains other iterables (like 2D)
+
+matrix=matrix=[[1,2],[3,4]]
+
+flat=list(chain.from_iterable(matrix))
+
+chain([1,2],[3,4])
+
+---------------------------------------------
+flat=list(chain(*matrix))
+print(flat)
+
+Why Not use (chain(*matrix))
+------------------------------
+
+Uses unpacking ---> high meory for large lists 
 
 
 
+Internally
+-----------
+for row in matrix:
+    for x in row:
+        x
+
+
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+from itertools import chain 
+flat=list(chain.from_iterable(matrix))
+print(flat)
+
+flat=list(chain.from_iterable(matrix))
+----------------------------------------------------------------------------------
+
+Dedupe - Remove duplicates 
+
+Deduplication removes repated values 
+two types:
+    - Order not important 
+    - Order must be preserved (Very common)
+
+data=[1,2,2,3,4,5]
+unique=list(set(data))
+
+nums=[1,2,2,3,1,4]
+
+[1,2,3,4]
+
+Why Duplicate happen:
+- Same data loaded twice 
+- File Reprocessed 
+- API retries
+- User submits form again 
+- System Failure 
+
+
+1. Set() - Order is lost 
+
+
+nums=[1,2,2,3,1,4]
+deduped= list(set(nums))
+
+[1,2,3,4]
+
+Output 
+-------
+Order is not gaurenteed 
+
+2. nums=[1,2,2,3,1,4]
+
+deduped= list(dict.fromkeys(nums))
+
+
+How dict.fromkeys() works:
+
+{
+    1: NONE,
+    2:NONE,
+    3:NONE,
+    4:NONE,
+}
+
+list(dict.keys())
+
+
+nums=[1,2,2,3,1,4]
+
+Loop ---> Check ----> add ---> skip duplicate 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 
 Tuple
+------
+
+A tuple is an ordered collection of items. But immutable
+
+Why tuple exist if we already have List
+---------------------------------------
+Safer - Data con't be changes accidently 
+Faster then list many operations
+Hashable ( It can used as Dictionary key if eleents are Hashable)
+Good for fixed records 
+
+How to create tuple:
+--------------------
+Case A: Normal tuple:
+
+t=(10,20,30)
+print(t)
+
+Case B: Without brackets (tuple packing)
+t=10,20,30
+print(t). -----> (10,20,30)
+
+Case:c Single eleents tuple 
+
+t1=(5) ----> Not a tuple (its INT)
+t2=(5,) ---> Tuple
+
+Rule: single item tuple must have comma 
+
+CASE :D Empty tuple 
+
+t=() 
+
+CASE : E  ---> tuple() constructor 
+
+t=tuple([1,2,3,4])
+t2=tuple("python")
+
+Notes: tuple() ---> Converts any iterables into a tuple.
+
+Tuple properties
+----------------
+- Ordered 
+- Allow Duplicates 
+- Can store mixed types 
+- immutable
+
+t=(1,1,"a",True,3.5)
+--------------------------------------------------------
+Accessing tuple (Indexing+slicing)
+
+t=(10,20,30,40)
+print(t[0]) #10
+print([-1]) #40
+
+print(t[1:3]) # (20,30)
+print(t[:2]) # (10,20)
+
+
+Nested tuple access 
+-------------------
+t=(1,(5,6),3)
+
+print(t[1][0])  # 5
+
+Immutability
+--------------
+
+t=(10,20,30)
+t[0] =99 # TypeError 
+
+--------------------------But inside Object can change---------------------
+t=(1,[10,20],3)
+t[1].append(30)
+print(t)
+
+If tuple contains a mutable onjects(list) the list can change 
+
+Tuple itself didn't change (still 3 items ) but inner list changed.
+
+
+Tuple Operations 
+-----------------
+
+Concatenation:
+    (1,2)+ (3,4) -----> (1,2,3,4)
+
+Repetation:
+    (1,2) *3 ----> (1,2,1,2,1,2)
+
+Membership: 
+
+    2 in (1,2,3,4,5) # True 
+
+Iteration:
+
+    t=(10,20,30)
+
+    for tx in t:
+        print(tx)
+
+Tuple Functions and Methods 
+---------------------------
+
+t=(1,2,2,3)
+
+t.count(2) # 2
+t.index(2) # 1 (First occurence)
+
+Built function
+-------------
+
+len(t)
+min(t) max(t)
+sum(t)
+sorted(t) -> gives list -----> tuple(sorted(t))
+
+Tuple Packing (What + Why)
+
+Tuple packing: Python automatically groups multiple values into one one table 
+
+t=10,20,30
+print(t). -------> (10,20,30) 
+type(t) ----> tuple 
+
+Key Point
+--------
+- Comma,creates the tuple not parentheis 
+- Parenthesis are optional unless needed for clariry
+
+Unpacking 
+-----------
+t=(10,20,30)
+a,b,c=t
+
+
+
+
+
+
+
+
+
+
 Set
 Dictionary
 String operations
