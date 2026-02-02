@@ -1,0 +1,5 @@
+OrderID: 1001 | Customer: Alice | Status: Completed
+OrderID: 1002 | Customer: Bob | Status: Pending
+OrderID: 1003 | Customer: Charlie | Status: Shipped
+OrderID: 1004 | Customer: David | Status: Completed
+OrderID: 1005 | Customer: Eva | Status: Cancelled

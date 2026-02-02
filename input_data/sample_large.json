@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Alice", "role": "admin"},
+  {"id": 2, "name": "Bob", "role": "user"},
+  {"id": 3, "name": "Charlie", "role": "editor"},
+  {"id": 4, "name": "David", "role": "user"},
+  {"id": 5, "name": "Eva", "role": "admin"},
+  {"id": 6, "name": "Frank", "role": "user"},
+  {"id": 7, "name": "Grace", "role": "editor"},
+  {"id": 8, "name": "Hank", "role": "user"},
+  {"id": 9, "name": "Ivy", "role": "admin"},
+  {"id": 10, "name": "Jack", "role": "user"}
+]

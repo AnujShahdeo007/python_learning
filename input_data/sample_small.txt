@@ -1,0 +1,2 @@
+OrderID: 1001 | Customer: Alice | Status: Completed
+OrderID: 1002 | Customer: Bob | Status: Pending
