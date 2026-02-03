@@ -747,6 +747,115 @@ Unpacking
 t=(10,20,30)
 a,b,c=t
 
+*********************************************************************************************************************
+*                                                Set                                                                *
+*********************************************************************************************************************
+
+What is SET?
+
+A set is a collection of unique values stored without order.
+my_set={1,2,3}
+
+Unordered       No fixed position 
+unique          No duplicate value 
+Mutable         Can add/remove values 
+No indexing     cannot use s[0]
+
+rolls=[101,102,103,101,104] # Duplicate roll no.
+
+unique_rolls=set(rolls) #{101,102,103,104} 
+
+# Set automiatically removes duplicate.
+
+
+How set is created:
+-------------------
+
+1. using {}
+
+s={1,2,3}
+
+2. using set() constructor 
+
+s=set([1,2,3])
+
+
+empty={} # Not a set
+type(empty) # dict
+
+
+empty_set=set()
+
+
+{} is always a dictionary, never a set
+
+Set internal working & How does set removes duplicate
+-------------------------------------------------------
+s={10,20,10,30,30}
+
+Internal steps:
+1. Python uses hashing 
+2. each element --> hashed 
+3. If hash already exist --> Ignore 
+
+That's why set is FAST (O(1)) lookup.
+
+
+s={10,20,30}
+print(s)
+
+{20,10,30}
+{30,30,10}
+
+Order is gaurenteed. 
+
+bcz:- 1. Set is based on has code hash not equal index 
+
+s={10,20,30}
+
+s[0] -> Error 
+--------------------------------------------------------------------------------------------------------------
+s={10,20,30}
+
+1. ADD/inset 
+
+    - add(x) - Add a single element 
+
+2. update(iterable)
+    - Add multiple elements from any iterables (list,tuple,string)
+    s.update([4,5,6]) #
+    s.update("ab) # 'a','b'
+    - When you want to merge many items 
+
+3. Remove/Delete
+    - remove(x)
+    s.remove(4) 
+    s.remove(99) # KeyError
+
+4. discard(x) - Remove element safley (No error if element is missing)
+
+5. pop() - Remove and return some element 
+        - You cannot predict which element is removed.
+
+Why Pop() behave like this?
+    - Sets are implemented using hash tables.
+    - Elements are placed nased on hash value 
+    - There is no sequence or index 
+
+6. clear() - Remove eveything
+    s.clear()
+
+7. copy() 
+    - Return a shallow copy of the set.
+    s={1,2,3}
+    t=s.copy()
+    t.add(99)
+    print(s) #{1,2,3}
+    print(t) #{1,2,3,99}
+
+    When you want to try transformation without touching original.
+
+s={1,2,[3,4]}
 
 
 
@@ -756,9 +865,80 @@ a,b,c=t
 
 
 
-Set
-Dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*********************************************************************************************************************
+*                                          Dictionary                                                               *
+*********************************************************************************************************************
 String operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---------------------------------------------------
 index 0     1   2   3
