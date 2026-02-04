@@ -857,33 +857,33 @@ Why Pop() behave like this?
 
 s={1,2,[3,4]}
 
+8. union - All unique values from both the sets  (a|b)
+    a={1,2,3}
+    b={3,4,5}
+    print(a.union(b)) 
 
+9. intersection (a&b) - Common elemnts only 
+    print(a.intersection(b))
 
+10. difference (a-b) - Element in a not in b 
+    print(a.difference(b))
 
+11. symmetric_diffrence - Element that are in either set but not common.
+    print(a.symmetric_difference(b))
 
+12 union_update - a.update(b)   a |=b 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+13. intersection_update -  keep only common in a 
+    a={1,2,3}
+    a.intersection_update({2,3,4}) --> {2,3}
+14. isdisjoint() 
+    - True if no common elemnts 
+    print({1,2}.isdisjoint({3,4})) - True
+    print({1,2}.isdisjoint({2,4})) - False 
+15. issubset() - True if all elelemnts of set exist in other 
+    print({1,2}.issubset({1,2,3})) - True 
+16. issuperset() - true if set contains all elelemnts of others 
+    print({1,2,3}.issuperset({1,2})) - True 
 
 
 
@@ -891,7 +891,51 @@ s={1,2,[3,4]}
 *********************************************************************************************************************
 *                                          Dictionary                                                               *
 *********************************************************************************************************************
-String operations
+
+
+A dictionary stores data in key:value pairs.
+
+students={
+    "name":"abc",
+    "age":25,
+    "city":"Pune
+}
+
+name - Key 
+abc - value 
+
+students=["abc",25,"Pune"] 
+
+index 0 - Name 
+
+students[name] # abc 
+students[age] #25 
+
+properties              Meaning 
+
+key-value               Data stored as pairs 
+keys unique             No duplicates keys allowed 
+Value any type          
+Mutable 
+Fast lookup             Hashing 
+Ordered( py 3.7)        Insertion order preserved 
+
+Creating a Dictionary 
+--------------------
+
+d={"a":1,"b":2,"c":3}
+
+d=dict(name="abc",age=25)
+
+pairs=[("a",1),("b",2)]
+d=dict(pairs)
+
+
+students["name"] 
+
+studnets=["sala"] # Key error 
+
+
 
 
 
