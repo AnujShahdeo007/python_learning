@@ -935,6 +935,106 @@ students["name"]
 
 studnets=["sala"] # Key error 
 
+Methods :
+
+1. keys() :
+    - d.keys() gives you all the keys of a dictionary.
+
+    d={"a":1,"b":2,"c":3}
+
+    d.keys()
+
+    What exactly is dict_keys()
+                Note: It is not a list
+        - It is a view - 
+        - It shows keys without copying them into a new list 
+        - It satys connected to the dictionary.
+
+        Note: If dictionary changes, this view also change 
+
+2. Values() : 
+    - d.values() return all the values stored in dictionary.
+
+    d={"a":1,"b":2,"c":3}
+    v=d.values()
+    print(v)
+
+    Note: This is not a list 
+    This is view object 
+
+3. items() 
+    - d.items() - returns both key and value togather as pair.
+
+    d={"name":"Raj","age":30,"city":"Pune"}
+    it=d.items()
+    print(it)
+
+without items()
+
+    for k in d:
+        print(k,d[k])
+
+4. get() - get() used to safely read the value from dictionary
+    value=d.get(key)
+
+    d={"name":"Raj","age":30,"city":"Pune"}
+    print(d["sal])
+
+    print(d.get("sal))
+
+    get(key,default)
+
+    if key exists- return value 
+    if not -> return the default 
+
+    Q.1 Frequency counting 
+
+    logs=["A","B","A","C","A"]
+
+    {"A":3,"B":1,,"C":1}
+
+    freq={}
+    for x in logs:
+        freq[x]=freq.get(x,0)+1
+    print(freq)
+
+    Q2. payload={"user":{"name":"Raj"}} -> if key is exist return value if key not exists return UNKNOWN 
+
+    5. update()
+    - add new keys 
+    -change existing keys 
+    - merge one dictionary into another 
+
+    d= {"A":3,"B":1,,"C":1}
+    d.update({"C":31,"City":"Pune"})
+    print(d)
+
+    key exists -> overwrite value 
+    key does not exists-> add new key 
+
+
+6. setdefault()  - >If this key exists, return its value and if it is not exists create it with a default value 
+
+    dict.setdefault(key,default)
+
+    d= {"A":3,"B":1,,"C":1}
+    c={}
+    c.setdefault("age",30)
+
+    NOTE: setdefault() never overwrites existing key.
+
+Q. orders=[
+    ("A",100),
+    ("B",200),
+    ("A",50),
+    ("C",300),
+]
+
+
+{"A":[100,50],"B":[200],"C":[300]}
+
+
+
 
 
 
