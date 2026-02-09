@@ -1,0 +1,73 @@
+Exception Handling:
+
+A controlled way to handle failures so your program doesn't crash suddenly. 
+
+ERROR and Exception :
+
+    - Syntax error: Code doesn't even start. 
+    - Exception : Code starts running, but fails during excution (divide by zero,file not found )
+
+Common exception :
+
+1. ZeroDivisionError 
+2. ValueError 
+3. typeError 
+4. FileNotFoundError 
+5. KeyError 
+6. IndexError 
+7. ImportError/ModuleNotFoundError 
+
+--- Python exception block 
+    - try/except 
+        - put "risky code" in try 
+        - Handle the failure in except 
+
+    - Multiple except block 
+
+--- Catch-a;; (except as Exception as e)
+    try:
+        "risky code
+    except Exception as e:
+        print(" Someting went wrong")
+
+    - Good for logging in production 
+
+--- else 
+
+    try:
+        n=int(input("Enter number:"))
+    except valueError:
+        print(Invalid Input")
+    else:
+        print("Square is", n*n)
+
+-- finally :
+    - Always excute 
+
+raise:
+    - when you decide something is wrog and you want python to stop normal excution and throw some exceptio. 
+
+Why we need raise :
+
+    Python automatically raise errors like:
+        - divide by zero 
+        - wrong type 
+        - file not found 
+    rules:
+        age must be >=18 
+        salary cannot be negative 
+        email must contain @ 
+
+    raise ExceptionType("Error message")
+
+    raise ValueError("Invalid input")
+
+
+
+# Questions 
+
+1. Take 2 numbers from user, handle ValueError and ZeroDivisionError 
+2. Open a file name from user, print a content handle filenotfounferror 
+3. Dictionary lookup: if key missing, print "unkonwn"
+4. Create a function withdraw (balance,amount) and raise exception if insuffienicent 
+
