@@ -1,0 +1,166 @@
+Problem 1: Pass or Fail System
+
+Create a function that takes marks as input and:
+	•	Returns “Fail” if marks are less than 40
+	•	Returns “Pass” if marks are between 40 and 59
+	•	Returns “Distinction” if marks are 60 or above
+
+Problem 2: Number Classification
+
+Write a function that accepts a number and:
+	•	Returns “Positive” if the number is greater than 0
+	•	Returns “Negative” if the number is less than 0
+	•	Returns “Zero” if the number is 0
+
+⸻
+
+Problem 3: Even–Odd with Condition
+
+Design a function that:
+	•	Checks if a number is even
+	•	If even and divisible by 4 → return “Even and divisible by 4”
+	•	If even but not divisible by 4 → return “Even but not divisible by 4”
+	•	If the number is odd → return “Odd”
+
+Problem 4: Login Validation
+
+Create a function that takes username and password as inputs:
+	•	If username is "admin":
+	•	If password is "1234" → return “Login Successful”
+	•	Else → return “Incorrect Password”
+	•	If username is not "admin" → return “Invalid User”
+
+⸻
+
+Problem 5: Voting Eligibility
+
+Write a function that takes age and citizenship status:
+	•	If age is 18 or above:
+	•	If the person is a citizen → return “Eligible to Vote”
+	•	Else → return “Citizenship Required”
+	•	If age is below 18 → return “Underage”
+
+⸻
+
+Problem 6: Student Grade System
+
+Create a function that:
+	•	Returns “A Grade” if marks are 90 or above
+	•	If marks are between 75 and 89:
+	•	Return “A-” if marks are 85 or above
+	•	Else return “B+”
+	•	Return “Average” for all other cases
+
+Problem 7: Salary Bonus Calculator
+
+Write a function that calculates bonus based on salary:
+	•	No bonus if salary is less than 30,000
+	•	10% bonus if salary is between 30,000 and 50,000
+	•	20% bonus if salary is above 50,000
+
+Return the bonus amount, not print it.
+
+⸻
+
+Problem 8: Shopping Discount System
+
+Create a function that:
+	•	Returns 0 discount if purchase amount is below 1,000
+	•	Returns 5% discount if amount is between 1,000 and 4,999
+	•	Returns 10% discount if amount is 5,000 or above
+
+⸻
+
+Problem 9: Traffic Signal Controller
+
+Design a function that takes a signal color as input:
+	•	"red" → return “Stop”
+	•	"yellow" → return “Ready”
+	•	"green" → return “Go”
+	•	Any other value → return “Invalid Signal”
+
+Problem 10: User Validation
+
+Create a function that:
+	•	Returns “Invalid User” if username is empty
+	•	Returns “Welcome Admin” if username is "admin"
+	•	Returns “Welcome User” for all other valid usernames
+
+⸻
+
+Problem 11: Temperature Alert System
+
+Write a function that:
+	•	Returns “Very Hot” if temperature is above 40
+	•	Returns “Hot” if temperature is above 30
+	•	Returns “Normal” if temperature is above 20
+	•	Returns “Cold” otherwise
+
+(Condition order matters)
+
+⸻
+
+Problem 12: Secure Access Control
+
+Create a function that:
+	•	If role is "admin":
+	•	If OTP is correct → return “Access Granted”
+	•	Else → return “Incorrect OTP”
+	•	If role is not "admin" → return “Access Denied”
+
+Problem 13: Bank Withdrawal System
+
+Design a function that takes balance and withdrawal amount:
+	•	Return “Invalid Amount” if amount is less than or equal to 0
+	•	Return “Insufficient Balance” if amount is greater than balance
+	•	Else return the remaining balance
+
+⸻
+
+Problem 14: Exam Recheck Policy
+
+Create a function that:
+	•	Returns “Pass” if marks are 40 or above
+	•	If marks are below 40:
+	•	Return “Recheck Allowed” if recheck is requested
+	•	Else return “Fail”
+
+⸻
+
+Problem 15: Employee Performance Review
+
+Write a function that:
+	•	Returns “Excellent” for rating 4 or above
+	•	Returns “Good” for rating 3
+	•	Returns “Needs Improvement” for rating 2
+	•	Returns “Poor” for rating 1 or below
+
+Problem 16: Break on Critical Error
+
+Design a function that:
+	•	Takes a list of status codes
+	•	Loops through them
+	•	If code is 500, return “Critical Error”
+	•	If code is 400, continue
+	•	If no 500 found, return “System OK”
+
+⸻
+
+Problem 17: Consecutive Failure Detector
+
+Write a function that:
+	•	Accepts a list of 0s and 1s (1 = failure)
+	•	Uses loop to detect:
+	•	Return “Critical” if 3 consecutive failures occur
+	•	Else return “Normal”
+
+⸻
+
+Problem 18: Inventory Check
+
+Create a function that:
+	•	Takes a list of item quantities
+	•	Loops through items
+	•	If any quantity is 0 → return “Out of Stock”
+	•	Else return “All Available”
+

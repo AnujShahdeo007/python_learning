@@ -1,0 +1,77 @@
+File Handling 
+-------------
+
+1. What is file?
+    - A file just saved text/data on your system(disk).
+
+f=open("../input_data/test.txt","r")
+# .. Go one folder up
+# / path seperator 
+data=f.read()
+print(data)
+f.close()
+
+open():
+    - Ask OS (windows/max/Linux) to give access to a file.
+
+What is mode ( "r","w")
+
+    For reading :
+        "r" - Read text (default) - If file is not exist - Python throw error "FileNotFoundError"
+        "rb"- read binary (images/pdf)
+        "r+"- read + write 
+
+Best practice:
+
+with open (../input_data/test.txt","r") as f
+
+read() : Reads everything 
+
+    - Python reads bytes from disk through OS buffring.
+    - converts to text using encoding (utf-8)
+    - return one big string 
+
+Use when file is small/medium 
+
+
+2. readline() -> reads one line at a time 
+
+    with open("","r") as f:
+        line1=f.readline()
+        line2=f.readline()
+    print(line1)
+    print(line2)
+
+    Note: readline keeps \n (newline) at the end if present.
+
+3. readlines() -> reads all lines into a list 
+
+    with open("../input_data/test.txt","r") as f:
+    line=f.readlines()
+print(line)
+
+
+
+Note: 
+
+strip() : strip() is a string method, used to remove unwanted chacters from beginning and the end of string.
+
+    - It removes spaces,tabs and newline 
+
+Why do we need strip()
+    - Extra space 
+    - New line (\n)
+    - Tabs (\t)
+    - Messy user input 
+    - Files with training spaces 
+
+
+string.strip() 
+
+lstrip : Removes charcters only from the left side. 
+
+text="     Hello"
+
+rstrip() : Removes chacters only from right side 
+
+
