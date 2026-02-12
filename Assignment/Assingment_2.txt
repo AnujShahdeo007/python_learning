@@ -86,8 +86,6 @@ Create a function that:
 	•	Returns “Welcome Admin” if username is "admin"
 	•	Returns “Welcome User” for all other valid usernames
 
-⸻
-
 Problem 11: Temperature Alert System
 
 Write a function that:
@@ -97,8 +95,6 @@ Write a function that:
 	•	Returns “Cold” otherwise
 
 (Condition order matters)
-
-⸻
 
 Problem 12: Secure Access Control
 
@@ -114,8 +110,6 @@ Design a function that takes balance and withdrawal amount:
 	•	Return “Invalid Amount” if amount is less than or equal to 0
 	•	Return “Insufficient Balance” if amount is greater than balance
 	•	Else return the remaining balance
-
-⸻
 
 Problem 14: Exam Recheck Policy
 

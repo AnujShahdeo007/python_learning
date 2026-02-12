@@ -75,3 +75,340 @@ text="     Hello"
 rstrip() : Removes chacters only from right side 
 
 
+f=open("file.txt","mode")
+
+r- Read mode 
+
+    - Open file for reading only 
+    - File must exist 
+    - Pointer start at beginning 
+
+w- Write (Overwrite)
+    - Opens file for writing 
+    - IF file exists -> Delete old content 
+    - If file not exist -> create file 
+
+with open("../input_data/test.txt","w") as f:
+    f.write("Hello\n")
+
+a- Append (Add at end )
+
+    - Adds new data at end of file 
+    - Doesn't delete old content 
+    - Creates file if not exists 
+
+with open ("../input_data/test.txt","a") as f:
+    f.write("this is appended\n")
+
+x- Exclusive create 
+
+    - Create a new file 
+    - If file already exists - Error 
+
+with open ("../input_data/test.txt","x") as f:
+    f.write("this is appended\n")
+
+r+ - Read+write (No truncate)
+
+    - Read & write 
+    - File must exist 
+    - Does not delete content 
+    - Writing happens from current pointer position.
+
+with open ("../input_data/test.txt","r+") as f:
+    print(f.read(2))
+    f.write("XX")
+
+w+ - Write +Read (Truncate)
+
+    - Opens for read and write 
+    - If file exists -> clear it first 
+    - Create file if not exists 
+
+with open ("../input_data/test.txt","r+") as f:
+    f.write("Hello")
+    f.seek(0)
+    print(f.read())
+    
+
+File Pointer :
+
+    Python places a cursor at the start of the file.
+
+1. tell() - Current pointer poisition 
+    returns the current byte position inside the file.
+
+2. seek() - moves pointer to a specific location 
+    f.seek(position)
+
+
+Python File Wriring 
+------------------
+
+Sending data from python -> file 
+saving it 
+
+Writing Multiple Lines 
+---------------------
+with open("demo.text") as f:
+    f.write("Line 1 \n")
+    f.write("line 2 \n")
+
+lines=["Python\n","Spark\n","AWS\n"]
+
+writelines() - does not add newline automatically 
+
+text="Hello python AWS hello spark"
+
+words=text.split()
+
+Split
+-------
+Split() divides a string into smaller pices wherever a specified sperator appers.
+
+syntax 
+------
+
+string.split(seperator,maxsplit)
+
+seperator: (optional) : character or string where splitting happens 
+maxsplit (optinal) : Number of splits to perform 
+
+text="Python is easy to learn"
+
+result=text.split()
+print(result)
+
+# Default separator is space 
+
+data="python,AWS,spark"
+words=data.split(",")
+print(words)
+
+text="Python is easy to learn"
+
+result=text.split(" ",2)
+print(result)
+
+
+log="INFO|2026-02-11|UserLogin||Success"
+feilds=log.split("|")
+print(feilds)
+
+
+text="Python\nis\neasy\nto\nlearn"
+
+/n : WRONG 
+\n : CORRECT 
+
+
+
+text="Python is easy to learn"
+
+result=text.split()
+
+with open("output.txt","w") as f:
+    for word in result:
+        f.write(word+"\n")
+
+
+Write Modes 
+-----------
+ Mode       Delete old content      Pointer position 
+ w              YES                     start 
+ a              NO                      end 
+ w+             YES                     start 
+ a+             NO                      end 
+
+a- append : Write without deleting 
+
+    - Adds data at end 
+    - Does not remove exisitng content 
+
+Before
+------- 
+
+Hello 
+
+
+with open ("demo.text","a") as f:
+    f.write("\nNewLINE)
+
+output
+-------
+Hello 
+newLine 
+
+
+w+ - 
+    - File is cleared 
+    - write and read 
+
+
+text="Hello python aws hello spark"
+
+    hello -2
+    Python - 1 
+    AWS -1 
+    Spark -1 
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+CSV = Comma sepearted values - 
+
+id,name,age,city
+1,abc,28,Pune
+2,bbc,30,mumbai
+
+"Hello, Python"
+
+
+import csv 
+
+with open("abc.csv","r",newline="",encoding="utf-8") as f :
+    reader=csv.reader(f)
+    header=next(reader)
+    for row in reader:
+        print(row)
+
+newline="" : Note: For CSV its very important 
+
+    - CSV files behave weired with new lines on windows 
+    - neline- Tells python 
+            - Don't auto convert newline
+            - Lets csv module handle newlinw 
+    - without it, we may get extra blank lines in output/writing 
+
+encoding="utf-8"
+
+encoding- defines how text charcters are stored.
+
+UTF-8 supports:
+    -English 
+    - Hindi 
+    - Special symbols
+- Without encoding, some system throw error: UnicodeDecodeError 
+
+
+reader=csv.reader(f)
+--------------------
+
+reader= We are creating a CSV reader object and storing it in variable reader.
+
+csv.reader(..) : 
+    - A function that reads CSV row by row 
+    - It undertsnads :
+        - Commas
+        - quotes 
+        - embedded commas inside quotes 
+
+ header=next(reader)
+ -------------------
+  next() -  takes the next item from an iterator 
+
+    - reader gives rows one by one :
+        - first next(reader) gives first row 
+
+    # Usually first row is header (column names )
+
+    ["id","name","age","city"]
+
+Q. Why csv.reader is better then split(",")?
+
+    1,"Hello, Python",28,Pune
+
+Problem :
+    - split(",") blindly split at every comma 
+    - It does not understand quotes 
+["id","name","age","city"]
+
+csv.DictReader- instead of returing list, it will return dictionary 
+
+{
+    "id":1,
+    "name":"abc",
+    "age": 28,
+    "city":"Pune"
+}
+
+
+import csv 
+with open("","r",newline="",encoding="utf-8") as f:
+    reader=csv.DictReader(f)
+    for row in reader:
+        print(row["name"],row["age"])
+
+
+age=int(row["age"])
+
+# Missing values  - handle 
+
+id,name,age
+1,abc
+
+id,name
+1,abc,28,Pune,India 
+
+Solution : restKey
+
+
+Situation               Parameter 
+
+Extra values present       restkey 
+
+Missing values present     restval 
+
+row.get() vs key in row 
+-----------------------
+
+concept             what is does 
+
+"key" in row        checks existence 
+
+row.get("key")      fetches value safely 
+
+
+Questions 
+----------
+
+id,name,age
+1,abc,28
+2,bcv,
+
+
+output:
+
+Age using get() : 28 
+key exists 
+
+Age using get(): 
+key exists 
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
