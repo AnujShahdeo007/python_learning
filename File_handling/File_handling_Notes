@@ -387,8 +387,170 @@ key exists
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+Writing Data CSV
+----------------
+csv.writer: is used to create or write rows into csv file.
+
+writer.writerow(list): Write one row 
+
+import csv 
+with open ("output.csv","w",newline="",encoding="utf-8") as f:
+    writer=csv.writer(f) # ",".join(values)
+    writer.writerow(["id","name","age"])
+    writer.writerow([1,"Rahul","28"])
 
 
+# Multiple rows 
+
+    writer.writerows
+
+rows=[
+    [1,"Hello",40],
+    [3,"ABC"60]
+]
+
+writer.writerows(rows)
+
+
+Quoting 
+-------
+
+csv.QUOTE_MINIMAL               only when needed (default)
+csv.QUOTE_ALL                   quote eveything 
+csv.QUOTE_NONE                  never quote 
+
+
+
+quotechar= Symbole used to wrap text 
+default = "
+Protects commans inside values 
+
+
+
+
+csv.DictWriter
+--------------
+
+[1,"hello",28]
+
+{"id":1,"name":"Hello","age":28}
+
+import csv 
+data=[
+    {"id":1,"name":"Hello","age":28},
+    {"id":2,"name":"Hello_python","age":98}
+]
+
+with open ("out_dict.csv","w",newline="",encoding="utf-8") as f:
+    writer=csv.DictWriter(f,fieldnames=["id","name","age"])
+    writer.writeheader()
+    writer.writerows(data)
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+JSON : JavaScript Object Notation 
+
+    - JSON is just a text format used to store structured data 
+
+    {
+        "id":1,
+        "name":"Raj",
+        "age":28,
+        "skills":["Python","Spark"]
+    }
+
+
+JSON is used for :
+    - APIs (Rest Apis)
+    - AWS lambda events 
+    - Config Files 
+    - Data exchage between systems 
+    - logs and streaning data 
+
+
+JSON vs Python Dictionary 
+
+
+JSON                            Python 
+
+{} object                       dict 
+[] array                        list
+"text"                          str 
+true                            True 
+false                           False 
+null                            None 
+
+
+
+JSON 
+----
+
+{"name":"Raj","active":true}
+
+
+Python 
+-----
+
+{"name":"Raj","active":True}
+
+
+
+import json 
+
+    - Load json handling tools 
+
+
+Core Json methods (VVI)
+-------------------------
+
+
+# load - read 
+# dump - write 
+
+json.load()         Reads JSON file             file -> Python object 
+
+--> Reads JSOn from the file and converts into Python dict/List 
+
+import json 
+with open ("","r") as f:
+    data=json.load()
+
+print(data)
+print(type(data))
+
+json.loads()        Read Json string            String -> python object 
+
+json_string='{"name":"raj","age"=30}
+import json 
+data=json.loads(json_string)
+print(data)
+print(type(data))
+
+
+message='{"user_id":1,"action":"view"}'
+
+json.dump()         Write JSOn file             python object --> File 
+
+import json 
+
+data=  {
+     "id":1,
+     "name":"Raj",
+     "age":28,
+     "skills":["Python","Spark"]
+}
+with open ("out.json","w") as f 
+    json.dump(data,f)
+
+
+json.dumps()        Convert to JSON string      python object -> String 
+
+data='{"name":"raj","age"=30}
+json_string=json.dumps(data)
+print(json_string)
+print(type(json_string))
 
 
 

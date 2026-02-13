@@ -1,4 +1,6 @@
-[
-  {"id": 1, "name": "Alice", "role": "admin"},
-  {"id": 2, "name": "Bob", "role": "user"}
-]
+{
+  "id":1,
+  "name":"Raj",
+  "age":28,
+  "skills":["Python","Spark"]
+}
