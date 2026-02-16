@@ -1036,6 +1036,238 @@ Q. orders=[
 
 
 
+*********************************************************************************************************************
+*                                        String Operations                                                          *
+*********************************************************************************************************************
+
+
+What is string?
+
+    - A string is a sequence of character enclosed in quotes 
+
+    a="python"
+    b="data"
+    c=""" multi line string"
+
+    - Store name,text,logs 
+    - File handling 
+    - API 
+    - SQL queries 
+    - JSON/CSV 
+
+
+    2. String Immutability:
+
+        - Once created a string cannot be changes 
+
+        s="hello"
+        s[0]="H" (Not allowd )
+
+    Create Sting 
+    -----------
+    "a"
+    "b"
+
+    Triple Quotes :
+
+    msg= """ hello
+    python 
+    hi 
+    java"""
+
+
+    Escape chanrcters
+    -----------------
+
+    \n  new line 
+    \t  tab
+    "   quote 
+    \   backslash 
+
+
+
+
+    s="PYTHONPROGRAMMING"
+
+    s[::2] # PHPGMN PTOPORMIG
+
+    s[::-1] # 
+
+    s[6:13] # PROGRAM
+
+    s[12:6:-1] # MARGOR
+
+    s="PYTHONPROGRAMMING"
+
+    s[1:15:3] # THPGM
+
+    s[::-2] # GIMROPOTP # GNMROPNTP
+
+
+    s[3:10:-1] # 
+
+    s[-5:-1] # 
+
+    s="ABCDEFGHIJK"
+
+    print(s[8:2:-2]) # 
+
+
+
+    1. lower() 
+        convert all charcters to lowercase 
+
+        s="Python"
+        print(s.lower()) # python 
+
+    2. upper()
+
+    3. title() 
+        - Capitalize first letter of each word 
+        "data engineering course".title()
+
+    4. Capitalize() 
+        - Only first charcter uppercase 
+    5. swapcase() 
+        - Lower-> upper and upper to lower 
+
+    6. Strip/trim (data cleaning )
+
+        - Remove unwanted chacters from ends 
+
+        "hello   ".strip() 
+
+        Removes the spaces from both side 
+
+        - lstrip() 
+        - rstrip() 
+
+    "******hello*******".strip("*") # hello 
+
+    Searching Methods 
+    ----------------
+
+    1. find() : Return index on substring 
+
+    "python".find("th") # 2
+
+    if not found : return -1 
+
+   2.  index() - Same as find but throw error 
+
+   3. count() - Count occurance 
+
+Replace methods 
+---------------
+
+replace(old,new ) 
+
+"I love Java".replace("Java","Python")
+
+Split and join 
+---------------
+
+split() : Breaks string into list 
+
+    "a,b,c".split(",") 
+
+    Note:
+
+    "Hello   Spark".split()
+
+rsplit() : Splits from right side 
+
+    "a,b,c".rsplit(",",1)
+
+splitlines() : Split based on newline 
+
+"Hello\nPython".splitlines()
+
+Join 
+=====
+
+Join list into string 
+
+"-".join(["a","b","c"])
+
+# a-b-c 
+
+
+formate() 
+----------
+"Hello {}".formate("Python")
+
+"{} {}".format("Data","Engineering")
+
+
+startwith() & endswith()
+------------------------
+"python".startwith("py")
+
+"file.csv".endswith(".csv")
+
+
+email="      hello.Python@GMAIL.com     "
+
+clean_email=email.strip().lower()
+
+
+log= "ERROR|2026-02-16|Timeout occured"
+
+parts=log.split("|")
+
+level=parts[0]
+data=parts[1]
+msg=parts[2]
+
+file_name="data_2026.csv"
+
+if file_name.endswith(".csv"):
+    print("Process file")
+else:
+    print("File is not CSV")
+
+
+Q. 1
+
+["Raj","28","Pune"]
+
+row="    Raj , 28 ,Pune "
+
+Q.2 
+
+name="Raj"
+city="Pune"
+
+msg=
+
+User Raj logged in from city Pune 
+
+Q.3 
+
+"Hello      Python          Students"
+
+output :
+
+Hello python Students 
+
+
+Q.4 
+
+table="emp"
+
+query = 
+
+Select * from emp;
+
+
+
+
+
+
+
+
+
 
 
 
