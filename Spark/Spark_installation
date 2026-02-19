@@ -1,0 +1,71 @@
+Windows :
+
+Step-1 : Install Java (JDK) 
+1. Install JDK 17
+
+1.2 Verify Java Installation:
+- Open Powershell 
+  - java -version
+      - You shoulf see something like 17.x 
+
+1.3 Set JAVA_HOME 
+  1. - Open Start-> "Environment variable" -> Edit the system Environment variable -> Environment variables 
+  2. - Under System variable - New 
+
+  - Variable_name : JAVA_HOME
+  - variable_value : C://Program files\java\jdk-17 
+
+  3. Edit Path (System variable) : Add 
+    .%JAVA_HOME%\bin
+
+  Verify (New Poweshell )
+
+  echo $env:JAVA_HOME 
+  java -version 
+
+
+Step 2 : Install Python 3.11 
+
+    - Install 3.11 from python.org 
+    - Add python path 
+    
+  Powershell
+
+  Python --version 
+  pip --version 
+
+
+Step 3: Download apache spark (3.5.8)
+
+  Extarct :
+
+  C:\Spark\ 
+
+  So your final folder :
+
+  C:\spark\spark 3.5.8-bin-hadoop3 
+
+Step 4 : Set Spark_Home +Path 
+
+Open Environment variable :
+4.1 Add spark_Home 
+  - Under system variable -> New 
+  - Name : SPARK_HOME 
+  - value : C:\spark\spark 3.5.8-bin-hadoop3 
+
+  4.2 Spark Path 
+
+  Edit path -> Add:
+  .%SPARK_HOME%\bin
+
+-- Verify 
+echo $env:SPARK_HOME
+spark-submit --version 
+pyspark --version 
+
+
+Step 5 : Install Pyspark 
+
+
+
+
