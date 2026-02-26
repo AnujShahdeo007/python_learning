@@ -1,0 +1,243 @@
+What is Distributed computing?
+
+    - Doing one big job by splitting it into smaller parts and running those in parts in parallel on multiple machine or core.
+
+Cluster - A group of computers working togather as one system.
+
+Node - One Machine (VM/Sever) in a cluster 
+
+    - Master Node - Coordinator 
+        - Manages the resources 
+        - Schdules work 
+        - decides where to run the task 
+
+    - Worker Node 
+        - Runs tour code tasks
+        - uses CPU/RAM to process partitions 
+
+Driver - 
+
+    - Driver is the main program process that:
+        - runs our spark code 
+        - creates SparkSession/SparkContext 
+        - Build a DAG 
+        - ask the cluster for resources 
+        - send work to executors 
+        - collect the results (Action)
+
+
+Executor:
+    - Executor is a process launched on wroker nodes 
+        - runs tasks 
+        - chaches data 
+        - returns result to driver 
+
+Tasks - 
+    - Tasks is the samllest usnit of work send to executor 
+    - 100 partitions --> 100 tasks 
+
+cores - 
+    A core is one cpu unit that can run one task at a time 
+        - Exector with 4 cores can run 4 tasks in parallel 
+
+        Rule:
+
+            - parallel task = total executot cores (accross cluster)
+
+Partition- 
+    A partition is a chunk of data 
+
+    Why partitioning is crucial :
+
+        - Partition controls
+            - parallelism 
+            - performnce 
+            - shuffle cost
+            - memory usages 
+
+Cluster manager - 
+    Cluster manager responsible for:
+        - allocating resources (CPU/RAM)
+        - starting executor 
+        - managing cluster schduling 
+
+        Spark uses :
+
+            - YARN 
+            - standalone 
+            - kubernestes 
+
+Local vs Cluster mode- 
+
+    Local Mode :
+        - Everything runs on one machine 
+        - driver+ executor on your laptop 
+        - learning/testing 
+
+    Cluster Mode :
+        - driver submits the job 
+        - executors run on worker nodes
+
+
+1. Python code starts 
+2. Driver JVM start 
+3. SparkSession created 
+4. Cluster manager allocates executors 
+5. Logical plan built 
+6. Action triggres execution 
+7. catalayst optimizer 
+8. Physical plan genrated 
+9. DAg created 
+10. Stages created 
+11. Task created 
+12. tasks sent to executor 
+13. Shuffle perforened 
+14. Aggregation performed 
+15. Result returned to driver 
+
+###################################################################################################################################
+
+SparkContext?
+
+    - SparkContext is the entry point to Spark Core engine (RDD + cluster resources ) -  RDD 
+    - It connect ypur driver program to the cluster manager and executor 
+
+        - appName ,master 
+        - how to create RDD 
+        - how to scheule the job 
+
+
+1. What is an RDD?
+
+    RDD- Resilient Distributed Dataset 
+
+        Resilient : Recover automatically using linegae
+        Distributed : Data split into partition 
+        Dataset :Collection record 
+
+    Key Properties :
+
+        1. Immutable 
+            - You never change RDD 
+            - Transformation create a new RDD 
+
+        2. Distributed 
+            - Split into partition 
+                - each partition processed in parallel 
+                - each partiton - tasks 
+
+        3. Fault Torlance
+
+            - Spark store lineage (DAG) of how RDD built 
+            - If partition is lost, Spark recompute it from lineage 
+
+
+Why RDD ?
+
+    - You need low level transformation 
+    - you handle unstructured/semi structiured data 
+    - You want custom partitioning/ customlogic 
+
+
+Creating RDD:
+
+    1. parallelize() 
+
+            - Create RDD from local python collection 
+
+        data=list(range(1,21))
+        mapped=rdd.map(lambda x:x*10)
+
+        What happend:
+
+            - Spark did not multiply yet.
+            - Spark just created a New RDD object 
+            - No job ran 
+            - No executor executed 
+
+
+
+
+What is Transformation?
+
+    A transformation 
+        - does not execute immediately 
+        - create new rDD 
+        - just builds a logical plan # A plan of operations Spark will execute later 
+
+
+What is Action :
+
+    - An Action:
+        - trigeers actual excution 
+        - Return results to Driver 
+        - Cause Spark job to start
+
+        print(mapped.glom().collect())
+
+        What happend ?
+
+            - Spark starts a job 
+            - Creates tasks 
+            - Execute on executor 
+            - Send result to Driver 
+
+
+
+rdd=sc.parallize([1,2,3,4,5],2)
+
+step1 = rdd.map(lambda x:x*2)
+
+step2 = step1.filter(la,bda x:x>4)
+
+print("Nothing get Executed yet ")
+
+result=step2.collect()
+
+print(result)
+
+
+
+What happend internally:
+
+STEP A : Driver creates a DAG 
+
+    DAG: Directed Acyclic Graph ( A chain of operation)
+
+    Parallize 
+        |
+    map(x*2)
+        |
+    filter(x>4)
+
+
+STEP B : collect() - Action 
+
+    Now Spark:
+
+        1. Break DAG into stages 
+        2. Creates tasks( 1 per partition)
+        3. send tasks to excutors 
+        4. Excutors process those partitions 
+        5. result come back to driver 
+
+
+Types of transformatio:
+
+    1. Narrow transformation 
+        - Each partition depends on only one parent partition.  
+
+        - No shuffle 
+
+        
+
+    2. Wide Transformation
+
+    
+
+
+
+
+
+
+
