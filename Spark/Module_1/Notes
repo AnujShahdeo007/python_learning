@@ -229,7 +229,65 @@ Types of transformatio:
 
         - No shuffle 
 
-        
+        1. map()
+
+            - Map() takes each element of an RDD one by one and applies a function and return a new RDD with transformed elelemnt. 
+
+            [1,2] - [2,4]
+            - Narrow - 
+            rdd=sc.parallize([1,2,3,4,5,6],2)
+            rdd.glom().collect()
+
+            - [[1,2,3],[4,5,6]] # 2 Partition 
+
+            rdd2=rdd.map(lambda x:x*2)
+
+            rdd2.collect() # Calling Action 
+
+            Output:
+
+            [[2,4,6],[8,10,12]]
+
+        2. flatmap() 
+
+            - flatmap() applies a function to each element.
+            - The function return a list/iterable 
+            - Spark then flattens the result into single RDD.
+
+            map() + faltten() - flatmap() 
+
+        3. filter() 
+        - KEEPS ONLY THOSE ELEMENTS THAT STAISFY CONDITION.
+        - IT REMOVES ELEMENTS THAT DON'T MATCH THE CODITION 
+
+         Syntax:
+
+            rdd.filter(lambda x:condition)
+
+            rdd=sc.parallelixe([1,2,3,4,5,6],2)
+            rdd.glom().collect() 
+
+            # [[1,2,3],[4,5,6]]
+
+        Try to find even 
+            rdd2=rdd.filter(lambda x:x%2==0)
+
+        4. mapPartitions() :
+
+            - Process one entire partition at a time - (Optimized way to process)
+
+            rdd.mappartitions(function)
+
+        5. mapPartitionsWithIndex() 
+
+                - It also gives you partition index (partition Number)
+                - Along with the iterator of elelemnt 
+
+                (index,iterator)
+
+                rdd.mapPartitionsWithIndex(function)
+
+                
 
     2. Wide Transformation
 

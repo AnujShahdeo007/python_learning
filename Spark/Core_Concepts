@@ -1,2 +1,71 @@
-Hadoop:
+What is Spark
+Why Spark
+Spark ecosystem
+Cluster vs Local mode
+Spark architecture
+Driver
+Executors
+Cluster Manager
+Distributed computing
+
+
+Spark Architecture;
+
+Main Manger : Driver 
+Allocation system : Cluster manager 
+Branch kitchen : Wroker node 
+Chef : Executor 
+Single pizza : Task 
+
+Driver
+------
+
+    - Reads your code 
+    - Creates a execution plan (DAG)
+    - Divide 
+    - Create task 
+    - Sends tasks to executor 
+
+# Driver does not process the data 
+
+
+Cluster Manager = Resource Allocator 
+
+    - Standalone 
+    - YARN 
+    - Kuberetes 
+
+        - Allocation CPU & Memeory 
+        - Decides whwre executors will run 
+
+# It does not process the data 
+
+
+Worker Node: Branch Kitchen 
+
+Worker:
+    - Machine in cluster 
+    - Hosts execuots 
+    - Run task 
+
+
+Executor = Chef 
+
+    - Lives inside worker 
+    - Execute data in memory 
+    - Store data in memeory 
+    - Send result back 
+
+If executor has 4 core -> Can run 4 tasks in parallel 
+
+
+Task = Single Pizza 
+
+    - Data is divided into partitions 
+    - Each partition = 1 Task 
+
+    If 100 Partition -> 100 task created 
+
+
+
 
