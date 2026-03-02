@@ -287,6 +287,50 @@ Types of transformatio:
 
                 rdd.mapPartitionsWithIndex(function)
 
+        6. glom() : Shows how data is distributed inside partitions.
+            - Converts each partition into a list
+            - Return an RDD of lists 
+            - Used for debugging partitions 
+            - Narrow Transformation - No shuffle
+                rdd.glom()
+
+                rdd= sc.paralleize([1,2,3,4,5,6],3)
+
+                print(rdd.glom().collect())
+
+        7. coalesce() ( Without Shuffle) : 
+            - reduce number of partitions
+            - Without shuffle (when reducing)
+            - Spark merges partitions without moving all data across cluster 
+            - No shuffle 
+            - No full data movement 
+
+        Note: 
+            - coalsece() is effiicent when reducing partitions. 
+            - If increasing partiton- Use repartition() (which cause shuffle)
+
+
+        8. keys()
+
+            Extract only keys from RDD 
+
+            rdd.keys()
+
+            ["a","b","c"]
+
+        9. value()
+
+            Extract all the value 
+
+            rdd.values()
+
+            [1,2,3]
+
+
+        rdd=sc.parallize([("a",1),("b",2),("c",3)])
+
+        
+
                 
 
     2. Wide Transformation
