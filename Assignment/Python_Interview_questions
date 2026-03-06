@@ -1,0 +1,29 @@
+#1. What is Mutable vs Immutable
+#2. Diffrence between is and ==
+#3. What is lambda Function
+#4. Diffrence between Deep copy and Shallow copy?
+#5. FInd Duplicate Elements : arr=[1,2,3,4,2,3,4]
+#6. Count Frequency of Elelemnt : arr=[1,2,3,4,2,3,4]
+#7. Flatten Nested List : arr=[[1,2],[3,4],[5,6]] # Output [1,2,3,4,5,6]
+
+# Logical Questions 
+
+# Two sum Problem 
+arr=[2,7,11,15,8,1,6,3,9,0]
+arr=[0,1,2,3,6,7,8,11,15]
+
+
+
+taget=9 
+
+#Find two numbers whose sum equales to taget?
+# Remove deuplicates from list
+# FInd the missing no 
+
+#1,2,3,5 -> Missing = 4 
+
+# Find second Larget No [10,20,4,45,99]
+
+
+
+

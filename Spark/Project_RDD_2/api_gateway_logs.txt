@@ -1,0 +1,13 @@
+2026-03-05T10:00:12Z endpoint=/product/432 ip=192.168.1.10 ms=180 status=200
+2026-03-05T10:00:31Z endpoint=/search ip=192.168.1.12 ms=410 status=200
+2026-03-05T10:01:02Z endpoint=/search ip=192.168.1.99 ms=3100 status=200
+2026-03-05T10:02:25Z endpoint=/pay ip=192.168.1.12 ms=950 status=500
+2026-03-05T10:03:15Z endpoint=/pay ip=192.168.1.12 ms=870 status=502
+2026-03-05T10:04:45Z endpoint=/product/432 ip=192.168.1.10 ms=2800 status=200
+2026-03-05T10:06:00Z endpoint=/checkout ip=192.168.1.12 ms=2000 status=500
+2026-03-05T10:07:10Z endpoint=/login ip=192.168.1.55 ms=125 status=401
+2026-03-05T10:07:20Z endpoint=/login ip=192.168.1.55 ms=128 status=401
+2026-03-05T10:08:10Z endpoint=/search ip=10.10.10.10 ms=450 status=200
+2026-03-05T10:08:30Z endpoint=/search ip=10.10.10.10 ms=490 status=200
+2026-03-05T10:10:02Z endpoint=/search ip=192.168.1.99 ms=3400 status=200
+GARBAGE_GATEWAY_LINE something weird here

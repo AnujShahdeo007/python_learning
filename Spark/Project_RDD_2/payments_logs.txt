@@ -1,0 +1,7 @@
+2026-03-05T10:02:25Z txn=tx101 user=user456 amount=1250 method=UPI status=FAILED ip=192.168.1.12
+2026-03-05T10:03:15Z txn=tx102 user=user456 amount=1250 method=UPI status=FAILED ip=192.168.1.12
+2026-03-05T10:05:22Z txn=tx103 user=user333 amount=899 method=CARD status=SUCCESS ip=192.168.1.45
+2026-03-05T10:09:25Z txn=tx104 user=user456 amount=1250 method=UPI status=FAILED ip=192.168.1.12
+2026-03-05T10:10:30Z txn=tx105 user=user222 amount=450 method=UPI status=SUCCESS ip=192.168.1.12
+2026-03-05T10:10:40Z txn=tx106 user=user111 amount=299 method=CARD status=FAILED ip=10.10.10.10
+MALFORMED_PAYMENT txn=tx999 user=user000 amount= status=FAILED

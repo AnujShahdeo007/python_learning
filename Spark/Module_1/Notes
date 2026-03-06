@@ -329,13 +329,84 @@ Types of transformatio:
 
         rdd=sc.parallize([("a",1),("b",2),("c",3)])
 
-        
+
 
                 
 
     2. Wide Transformation
 
     
+    1. distinct()
+        - Remove duplicate elements from RDD
+        - It returns only unique element
+        
+        [1,2,3,2,4,3,5] --> [1,2,3,4,5]
+
+        log file 
+
+        user1 
+        user2 
+        user1 
+        user3 
+        user2 
+
+        unique_logs=logs.distinct() 
+
+
+    2. reduceByKey() 
+
+        ReduceByKey() is used on pair RDD (Key-value RDD) to aggreagte values that have the same key using a function
+
+        Note: It combines values belonging to the same key 
+
+        rdd.reduceByKey(function)
+
+        Note: The function must take two values and return one value 
+
+        lambda a,b = a+b
+
+    3. GroupBykey()
+
+        Groups all values of the same key togather.
+        - It collects all value for each key into a list like structure.
+        rdd.groupByKey() 
+
+        - It works only on pair RDD 
+
+        (Key,value)
+
+        return - (key,itrrable(values))
+
+
+Diffrence Between reduceBykey and groupByKey 
+
+                reduceBykey                 groupByKey 
+    purpose     Aggragte                    Group Values 
+    Output      (key,value)                 key,list of values
+    Shuffle     Less                        More 
+    Performace  Fast                        Slow 
+    Aggregation Yes                         No 
+
+    When to use Group By :
+
+        - You need all values 
+        custom1 -> [p1,p2,p3]
+    
+    When to use ReduduceByKey 
+
+        - total sales
+        - word count 
+        - click count 
+        - max score 
+
+
+
+    4. sortBykey()
+    5. sortBy()
+    6. repartiton()
+    7. coalesce()
+    8. joins()
+    9. cogroup()
 
 
 

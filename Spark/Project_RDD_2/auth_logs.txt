@@ -1,0 +1,15 @@
+2026-03-05T10:00:05Z user=user123 event=LOGIN_SUCCESS ip=192.168.1.10 reason=ok
+2026-03-05T10:00:20Z user=user222 event=LOGIN_SUCCESS ip=192.168.1.12 reason=ok
+2026-03-05T10:01:40Z user=user333 event=LOGIN_SUCCESS ip=192.168.1.45 reason=ok
+2026-03-05T10:02:10Z user=user456 event=LOGIN_SUCCESS ip=192.168.1.12 reason=ok
+2026-03-05T10:07:01Z user=user888 event=LOGIN_FAILED ip=192.168.1.55 reason=bad_password
+2026-03-05T10:07:10Z user=user888 event=LOGIN_FAILED ip=192.168.1.55 reason=bad_password
+2026-03-05T10:07:20Z user=user888 event=LOGIN_FAILED ip=192.168.1.55 reason=bad_password
+2026-03-05T10:07:30Z user=user888 event=LOGIN_FAILED ip=192.168.1.55 reason=bad_password
+2026-03-05T10:07:40Z user=user888 event=LOGIN_FAILED ip=192.168.1.55 reason=bad_password
+2026-03-05T10:07:50Z user=user888 event=LOGIN_FAILED ip=192.168.1.55 reason=bad_password
+2026-03-05T10:08:05Z user=user111 event=LOGIN_SUCCESS ip=10.10.10.10 reason=ok
+2026-03-05T10:08:06Z user=user111 event=LOGIN_FAILED ip=10.10.10.10 reason=token_replay
+2026-03-05T10:08:07Z user=user111 event=LOGIN_FAILED ip=10.10.10.10 reason=token_replay
+BROKEN_AUTH_LINE user=user999 ip=1.2.3.4
+2026-03-05T10:09:55Z user=user888 event=LOGIN_SUCCESS ip=192.168.1.55 reason=otp_success
