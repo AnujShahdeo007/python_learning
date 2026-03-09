@@ -1,0 +1,88 @@
+1. Problem Statement 
+
+    Imagine we are working in large e-ecommrece company 
+
+    Every second many users are doing diffrent activities on the website or mobile apps
+
+        - Logging in 
+        - Seaching produncts 
+        - viewing product pages 
+        - adding items to cart 
+        - making payments 
+        - logging out 
+
+    At the same time the backend system is also generating technical activity such as :
+        - API calls 
+        - Warning 
+        - errors 
+        - Payment failure 
+        - Authentication failure 
+        - slow response 
+
+
+    -- Logs files 
+
+
+    The Main Problem:
+
+    1. Too many login failure 
+
+        - Some users are failing login again and again this may idicates:
+            - wrong pasword attemps
+            - brute froce attack 
+            - suspicisous ativity 
+
+    2. Repeated Payment Failure 
+        
+        - Some users are trying payments multiple times, but payments are failing :
+
+            - Farud attemps 
+            - Payment gateway issue 
+            - bot traffic 
+
+
+    3. Slow APIs 
+
+        - Some Apis are taking too much time to respond 
+
+    4. Suspicious IP address 
+        
+        - Some Ips are sending too many requests or are already blocked.
+
+
+Why this is difficult :
+
+    - Thoudands of records come every second
+    - data can grow GBs or TBs 
+    - manual analysis is impossible 
+    - Excel or python loops are not enough 
+
+Why Are we trying to Build:
+
+    We are trying to build a mini log analytics and answer important business questions.
+
+
+We want:
+
+    - Fraud/ suspicious activity 
+
+        - Users with too many failed login 
+        - Users with repeted payment failures 
+        - backlisted IP usages 
+        - Suapicious repeted requests 
+
+    - API health issues 
+
+        - slow Apis 
+        - Failing APis 
+        - heavily used Apis 
+
+    - User and system insights 
+
+        - Most active users 
+        - most common action 
+        - error count
+        - suspicious pattern 
+
+        
+    
