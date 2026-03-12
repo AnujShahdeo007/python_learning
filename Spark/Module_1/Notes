@@ -402,13 +402,109 @@ Diffrence Between reduceBykey and groupByKey
 
 
     4. sortBykey()
+
+        - (key,value)
+        - Used to sort a pair RDD based on key
+        - rdd.sortByKey(ascending=True) 
+        - ascending=True # sort ascending 
+        - ascending=False # sort descending 
+
     5. sortBy()
+
+        - Used to sort RDD elements using any custom function 
+        - rdd.sortBy(lambda x:x)
+
     6. repartiton()
+        - Used to increase or decrease the number of partition 
+        - Perform shuffle 
+        - rdd.repartition(num_partition)
+
     7. coalesce()
+        - Used to reduce the number of partitions with shuffle 
+        - rdd.colasece(numpartitions)
+
     8. joins()
+        - Inner Join 
+            - Return records only when the key exists in both RDD
+            - equivalent SQL inner join 
+            - emp.join(salary)
+
+        - leftOuterJoin() # Left JOIN
+
+            - Return all records from left RDD and mtaching records from right RDD 
+            - emp.leftOuterJoin(salary)
+            - If no match exists- NONE 
+
+        - rightOuterJoin # Right Join 
+            - Return all records from right RDD and matching from left RDD 
+            - emp.rightOuterJoin(salary)
+            
+        - fullOuterJoin # full join
+
+            - Return all records from both Rdds
+            - Missing values are filled with None 
+            - emp.fullOuterjoin(salary)
+
+
     9. cogroup()
 
+        - Group values of both RDDs by key
+        - Instead of joining values it returns all values grouped togather 
 
+        - rdd.cogroup(rdd2)
+
+        - (key,(Itreaable1,itrable 2))
+
+
+
+Actions:
+
+    1. collect()
+        - rdd.collect() 
+        - Returns all elements of RDD to the driver 
+        - Dangerous for large dataset # Becasue it loads entrire data into driver memeory.
+    2. count()
+        - Return number of elements in RDD
+    3. first()
+        - Returns first elelemnt of RDD 
+
+    4. take()
+        - Returns first n elements of RDD
+    5. takeOrdered()
+        -Returns samllest n elemnts sorted # rdd=sc.parallize([10,5,30,1]) # rdd.takeOrdered(2) # [1,5]
+    6. top(n)
+        - Returns largest n elelemts 
+
+    7. reduce()
+        - Aggregates elemnts using a function 
+        - rdd.reduce(function)
+
+    8. foreach()
+        - Executes a function on each RDD elemnts 
+        
+    9. saveasTextFile()
+        - Writes RDD data to HDFS/S3/Local system 
+        - rdd.saveasTextfile("output")
+
+    10. saveAsSequenceFile() # parquet,orc,avro
+        - works with pair RDD 
+        - Saves a pair RDD into hadoop SequenceFile formate
+        - Sequence file is a binary file formate used in Hadoop ecosystem
+
+    11. saveasObjectFile()
+        - Saves the RDD as serilized Java object 
+
+    12. countBykey()
+        - Counts number of elemnts per key
+        - Used for PairRDD
+
+    13. countByValue()
+            - Counts occuence of eleach elemnt 
+    14. collectasMap()
+            - Returns Pair RDD as dictionary
+    15. takesample()
+        - Retuns random sample 
+        - rdd.takeSample()
 
 
 
