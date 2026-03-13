@@ -1,0 +1,139 @@
+SparkSession & Dataframe:
+
+SparkSession is the main gateway to intract with spark.
+
+    - Create Dataframe 
+    - Run SQL queries 
+    - Read data 
+    - Write data 
+    - Configure Saprk 
+
+
+Creating Saprk Session :
+
+from pyspark.sql import SparkSession
+spark=SparkSession.builder\
+    .appName("MySparkSessionDemo")\
+    .master("local[*]")\
+    .config("spark.sql.shuffle.partitions","4")\
+    .getOrCreate()
+
+
+SparkSession        Main entry point 
+builder             Used to configure session 
+appName             Sets application name 
+master              Defines execution mode
+config              Sets spark config 
+getOrcreate         Creates or reuse session 
+Spark.stop()        Stop session 
+
+
+What is Dataframe 
+
+    - A dataframe is a distributed collection of data orginized into rows and columns with a schema 
+
+        - Data is stored in a tabular formate 
+        - It has a column names 
+        - Each column has datatype 
+        - Data is distributed across multiple machines 
+
+
+
+RDD had problems :
+
+Problems                        Explanations 
+
+No Schema                       Spark does not know column structure 
+
+More code 
+
+No Query optimization 
+
+
+Advatanges of dataframe :
+
+Schema              Columns have define type 
+
+Catalyst Optimizer  Automatic query optimization 
+
+Less Code 
+
+Faster processing 
+
+
+
+Creating Dataframes :
+
+    1. From Python List 
+
+    data=[
+        (1,"A",30,"Mumbai"),
+        (2,"B",31,"Delhi"),
+        (3,"C",32,"Pune"),
+        (4,"D",33,"Bangalore"),
+    ]
+
+    Each row: tuple 
+    All rows togather = List 
+
+
+    spark.createDataFrame(data,columns)
+
+    columns=["id","Name","age","City"]
+
+
+Check Schema :
+
+    df.printSchema()
+
+
+2. List of Lists 
+
+    data=[
+        [1,"A",30,"Mumbai"],
+        [2,"B",31,"Delhi"]
+    ]
+
+    column=["id","Name","age","City"]
+
+
+3. From List of Dictionaries 
+
+
+4. Creating Dataframe From RDD 
+
+    rdd=spark.sparkContext.parallellize([
+        (1,"A",30),
+        (2,"B",40)
+
+    ])
+
+    df=spark.createDataFrame(rdd,["id","Name","age"])
+
+
+5. Explicit Schema 
+
+   from pyspark.sql.types import * 
+
+   StructType:
+
+        - Represents the entire Schema 
+
+    StructField
+
+        - Represents one column 
+
+
+
+    schema =StructType([
+        StructField(column_name,data type,nullable),
+        StructField(column_name,data type,nullable),
+        StructField(column_name,data type,nullable),
+        StructField(column_name,data type,nullable)
+    ])
+    nullable: True/False 
+
+
+    StringType          text 
+    FloatType
+    
