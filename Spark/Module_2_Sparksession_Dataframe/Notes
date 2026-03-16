@@ -136,4 +136,384 @@ Check Schema :
 
     StringType          text 
     FloatType
-    
+
+
+6. RDD → DataFrame conversion
+
+    rdd = spark.sparkContext.parallelize([
+    (1,"Ankit",30),
+    (2,"Rahul",28),
+    (3,"Neha",25)
+])
+
+df = spark.createDataFrame(rdd, ["id","name","age"])
+
+Rarely used today but useful when:
+	•	working with legacy Spark code
+	•	converting RDD pipelines to DataFrame
+
+
+7. Create DataFrame from CSV File
+
+df = (
+    spark.read
+    .format("csv")
+    .option("header", True)
+    .option("inferSchema", True)
+    .option("delimiter", ",")
+    .option("quote", '"')
+    .option("escape", "\\")
+    .option("multiLine", False)
+    .option("mode", "PERMISSIVE")
+    .option("nullValue", "NULL")
+    .option("encoding", "UTF-8")
+    .option("ignoreLeadingWhiteSpace", True)
+    .option("ignoreTrailingWhiteSpace", True)
+    .schema(schema)
+    .load("path_to_file.csv")
+)
+
+---------------------------------------------------------------------------------------------------------------------
+from pyspark.sql.types import *
+
+schema = StructType([
+    StructField("id", IntegerType(), True),
+    StructField("name", StringType(), True),
+    StructField("age", IntegerType(), True),
+    StructField("salary", DoubleType(), True),
+    StructField("comment", StringType(), True)
+])
+
+df = (
+    spark.read
+    .format("csv")
+    .option("header", True)
+    .option("delimiter", ",")
+    .option("quote", '"')
+    .option("escape", "\\")
+    .option("multiLine", False)
+    .option("mode", "PERMISSIVE")
+    .option("nullValue", "NA")
+    .option("encoding", "UTF-8")
+    .option("ignoreLeadingWhiteSpace", True)
+    .option("ignoreTrailingWhiteSpace", True)
+    .schema(schema)
+    .load("employee.csv")
+)
+
+1. header 
+
+    .option("header",True)
+
+    - This tells spark whether the first row of the CSV file contains column name.
+
+2. InferSchema 
+
+    - .option("InferSchema ",True)
+
+    - Spark tries to guess the datatype of each column automaically by scannning file
+    - Without this option, Saprk reads all column as string by default.
+
+   .schema(schema)
+
+3. Delimiter 
+
+    - .option("Delimiter",",")
+
+    - Character seperated the column 
+    - Default demiliter in CSV is comma 
+
+
+What happens if delimiter is Wrong?
+
+    - Spark will read the entrie row as one single column 
+
+4. quote 
+
+    - .option("quote",'"')
+
+    - This tells spark which chacter is used to wrap text value, especially when text contains the dilimiter itself
+
+5. escape 
+
+    .option("escape", "\\")
+
+    - Used when quote chacters appers insie a quoted filed 
+    - It helps spark to understand that the quote is part of the text
+
+6. multiLine
+
+    .option("multiline",true)
+
+    - Allow spark to read a feilds that spans multiple lines 
+
+
+7. Mode 
+
+    - .option("mode", "PERMISSIVE")
+    - Controls how spark handles malformed or bad records 
+
+    3 main modes 
+
+    - PERMISSIVE 
+
+        - default mode 
+        - When you do not want the whole job to fail becasue of few bad records 
+
+    - DROPMLFORMED 
+
+        - .option("mode", "DROPMLFORMED ")
+        - Spark silently drop malformed records 
+        - RIsk - May face data loss 
+
+    - FAILFAST 
+
+        - Job fails immediatley when spark finds malformed records 
+        - Strict pipelines 
+
+
+8. NullValue 
+
+    .option("nullValue","NA")
+
+    - Tells spark which value in the file should be treated as null 
+
+    - NA,NULL,null,empty string ,N/A
+
+
+9. encoding 
+
+    - option("encoding","UTF-8")
+    - defines the chacter encoding of the file 
+
+10. .option("ignoreLeadingWhiteSpace", True)
+     Removes spaces at the beginning of a value 
+     id,name
+     1,     A
+     2,     B 
+
+
+
+11. .option("ignoreTrailingWhiteSpace", True)
+
+    - Removes spaces at the end of value 
+
+        id, name 
+        1,A.    
+        2,B.    
+12. schema 
+
+    - Manually define Dataframe structure 
+
+
+df.show()
+df.printSchema()
+
+Basic Column Transformations
+
+Transformation              Purpose
+
+select()                    Select specific columns
+selectExpr()                Select columns using SQL expressions
+withColumn()                Add or modify a column
+withColumnRenamed()         Rename a column
+drop()                      Remove columns
+alias()                     Rename column temporarily
+cast()                      Change datatype
+col()                       Reference column
+lit()                       Create constant column
+
+
+Row Transformations
+-------------------
+
+Transformation                  Purpose
+
+select()                        Select specific columns         
+selectExpr()                    Select columns using SQL expressions
+withColumn()                    Add or modify a column
+withColumnRenamed()             Rename a column
+drop()                          Remove columns
+alias()                         Rename column temporarily
+cast()                          Change datatype
+col()                           Reference column
+lit()                           Create constant column
+
+
+Row Transformations
+-------------------
+
+Transformation              Purpose
+filter()                    Filter rows
+where()                     Same as filter
+distinct()                  Remove duplicate rows
+dropDuplicates()            Remove duplicates based on columns
+limit()                     Limit number of rows
+sample()                    Random sampling
+sampleBy()                  Stratified sampling
+
+
+
+Sorting Transformations
+-----------------------
+
+Transformation              Purpose
+sort()                      Sort DataFrame
+orderBy()                   Same as sort
+sortWithinPartitions()      Sort within partition
+
+Aggregation Transformations
+----------------------------
+
+Transformation              Purpose
+groupBy()                   Group data
+agg()                       Perform aggregation
+rollup()                    Hierarchical aggregation
+cube()                      Multi-dimensional aggregation
+pivot()                     Pivot table
+count()                     Count rows
+sum()                       Sum
+avg()                       Average
+min()                       Minimum
+max()                       Maximum
+
+Join Transformations
+--------------------
+
+Transformation              Purpose
+join()                      Join DataFrames
+inner
+left
+right
+full
+left_semi
+left_anti
+cross
+
+Set Operations
+--------------
+
+Transformation          Purpose
+union()                 Combine DataFrames
+unionByName()           Union by column name
+intersect()             Common rows
+intersectAll()          Common rows with duplicates
+except()                Difference
+exceptAll()             Difference with duplicates
+
+Partition Transformations
+-------------------------
+
+Transformation          Purpose
+repartition()           Increase or shuffle partitions
+coalesce()              Reduce partitions
+repartitionByRange()    Partition by column range
+
+Handling Missing Data
+
+Transformation              Purpose
+na.drop()                   Drop null rows
+na.fill()                   Fill null values
+na.replace()                Replace values
+
+
+Window Transformations
+----------------------
+
+Transformation              Purpose
+over()                      Apply window
+row_number()                Row number
+rank()                      Rank
+dense_rank()                Dense rank
+lead()                      Next row
+lag()                       Previous row
+ntile()                     Divide rows
+first()                     First value
+last()                      Last value
+
+Complex Transformations
+-----------------------
+
+Transformation              Purpose
+explode()                   Flatten array
+posexplode()                Explode with index
+inline()                    Expand struct
+stack()                     Convert columns to rows
+array()                     Create array column
+struct()                    Create struct column
+map()                       Create map column
+
+SQL Related Transformations
+---------------------------
+
+Transformation              Purpose
+createOrReplaceTempView()   Create SQL view
+createGlobalTempView()      Global view
+
+Spark DataFrame Actions
+-----------------------
+
+Viewing Actions
+---------------
+
+Action              Purpose
+
+show()              Display rows
+head()              First row
+first()             First row
+take()              First N rows
+
+Collecting Actions
+------------------
+
+Action              Purpose
+
+collect()           Return all rows
+toLocalIterator()   Iterator of rows
+
+Counting Actions
+----------------
+
+Action      Purpose
+count()     Count rows
+
+Writing Actions
+---------------
+
+Action              Purpose
+write.csv()         Write CSV
+write.parquet()     Write Parquet
+write.json()        Write JSON
+write.orc()         Write ORC
+write.jdbc()        Write DB
+
+Other Actions
+-------------
+
+Action                  Purpose
+
+foreach()               Apply function
+foreachPartition()      Apply per partition
+describe()              Summary statistics
+summary()               Extended summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+id|name|city|amount|comment
+1|"Amit"|"Mumbai"|100.5|"Normal row
+2|"Riya"|"New york, USA"|200.0|"City contains comma"
+3|"John"|"Delhi"|"NULL"|"AMount id NULL string -> should become null "
+4|"Sara"|"Kolakata"|300.75|"HE said \"Hello\" to me"
+5|"Gaurav"|"Bangalore"|400.0|"This is multiline comments
+second line of comments"
+6|"Badrow"|"chennai"|500.0
+7|"Extracol"|"pune"|600.0|"ok"|"extra"

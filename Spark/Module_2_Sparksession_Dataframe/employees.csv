@@ -1,0 +1,16 @@
+emp_id|first_name|last_name|email|department_id|job_title|salary|bonus|is_active|hire_date|last_login|city|performance_rating|employment_type
+1001|Anuj|Shahdeo|anuj.shahdeo@company.com|10|Senior Data Engineer|125000.50|10000|true|2019-04-15|2024-02-01 10:30:00|Mumbai|4.7|Full-Time
+1002|Riya|Verma|riya.verma@company.com|20|HR Manager|95000.00|7000|true|2018-07-10|2024-02-02 09:15:00|Delhi|4.3|Full-Time
+1003|John|Doe|john.doe@company.com|10|Data Engineer|105000.00|5000|true|2020-01-20|2024-01-25 14:00:00|Bangalore|4.1|Full-Time
+1004|Sara|Khan|sara.khan@company.com|30|Finance Analyst|88000.00|4000|true|2021-03-12|2024-02-03 11:45:00|Kolkata|4.6|Full-Time
+1005|Amit|Patel|amit.patel@company.com|40|Marketing Executive|72000.00|3000|true|2022-06-01|2024-02-01 16:30:00|Pune|3.9|Contract
+1006|Neha|Sharma|neha.sharma@company.com|20|HR Executive|65000.00|NULL|true|2021-11-19|2024-01-30 13:20:00|Chennai|4.0|Full-Time
+1007|Raj|Singh|raj.singh@company.com|10|Lead Data Engineer|135000.00|15000|true|2017-08-05|2024-02-04 18:00:00|Mumbai|4.9|Full-Time
+1008|Priya|Iyer|priya.iyer@company.com|60|Legal Advisor|110000.00|6000|true|2016-02-14|2024-01-29 10:10:00|Hyderabad|4.4|Full-Time
+1009|Karan|Malhotra|karan.m@company.com|50|Operations Manager|99000.00|8000|false|2015-09-30|2023-12-20 08:00:00|Chennai|3.8|Full-Time
+1010|Simran|Kaur|simran.kaur@company.com|70|Business Analyst|87000.00|3500|true|2023-01-10|2024-02-02 12:30:00|Delhi|4.2|Full-Time
+1011|David|Brown|david.brown@company.com|10|Data Architect|150000.00|20000|true|2014-05-18|2024-02-05 09:50:00|Bangalore|4.8|Full-Time
+1012|Meera|Joshi|meera.joshi@company.com|30|Senior Accountant|92000.00|4500|true|2019-10-25|2024-01-31 17:40:00|Kolkata|4.5|Full-Time
+1013|Arjun|Reddy|arjun.reddy@company.com|40|Digital Marketing Lead|83000.00|5000|true|2020-12-11|2024-02-01 15:10:00|Pune|4.1|Full-Time
+1014|Sneha|Kapoor|sneha.kapoor@company.com|20|HR Director|130000.00|12000|true|2013-03-03|2024-02-05 10:00:00|Delhi|4.9|Full-Time
+1015|Vikas|Rao|vikas.rao@company.com|30|Finance Manager|115000.00|9000|true|2016-07-21|2024-02-03 11:20:00|Kolkata|4.6|Full-Time
