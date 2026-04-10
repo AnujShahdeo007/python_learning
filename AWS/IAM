@@ -1,0 +1,193 @@
+What is IAM?
+
+IAM stands for Identity and Access Management. It is the AWS service used to securely control access to AWS resources. It handles two major things:
+	•	Authentication – who are you?
+	•	Authorization – what are you allowed to do? 
+
+Why IAM is important
+
+Without IAM, anyone could access resources.
+With IAM, AWS lets us:
+	•	create identities
+	•	assign permissions
+	•	restrict access
+	•	follow least privilege
+	•	use temporary access
+	•	protect the account using MFA and guardrails.  
+
+
+Real-time example:
+	•	Developer should access EC2 and CloudWatch
+	•	Data engineer should access S3, Glue, Redshift
+	•	Admin should manage users and policies
+	•	Application should use a role, not hardcoded credentials.  
+
+Core IAM concepts
+
+IAM User
+
+An IAM user is an identity created in AWS for a person or workload. Historically users were created with password or access keys, but AWS now recommends that human users use federation and temporary credentials instead of long-term IAM user credentials.  
+
+IAM Group
+
+A group is a collection of IAM users. Permissions can be attached to the group so all users in that group inherit them. This helps simplify access management. This is part of IAM identity-based access control.  
+
+IAM Role
+
+A role is an AWS identity with permissions that can be assumed by trusted principals. Roles are commonly used by EC2, Lambda, ECS, users from another account, or federated identities. AWS recommends using roles and temporary credentials rather than long-term keys.  
+
+Policy
+
+A policy is a JSON document that defines permissions. IAM policies specify what actions are allowed or denied on which resources, and optionally under which conditions.  
+
+Authentication vs Authorization
+
+This is a very important teaching point.
+
+Authentication
+
+Authentication means verifying identity.
+Examples:
+	•	console login with username/password
+	•	MFA
+	•	temporary credentials from assumed role
+	•	federated sign-in. 
+
+Authorization
+
+Authorization means checking permission after identity is known.
+Example:
+	•	User is authenticated successfully
+	•	AWS then checks whether that user can do s3:GetObject on a bucket.  
+
+IAM policy structure
+
+A policy is written in JSON. Important parts are:
+	•	Version
+	•	Statement
+	•	Effect
+	•	Action
+	•	Resource
+	•	Condition. 
+
+Example :
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:GetObject"],
+      "Resource": ["arn:aws:s3:::my-bucket/*"]
+    }
+  ]
+}
+
+
+Version
+
+Version defines the language syntax version for the policy. AWS documentation describes 2012-10-17 as the current version used for policy language.
+
+Statement
+
+Statement contains one or more permission rules.  
+
+Effect
+
+Effect is either:
+	•	Allow
+	•	Deny.
+An explicit deny overrides allow. This is a very important IAM rule.  
+
+Action
+
+Action specifies which AWS API operations are allowed or denied, like:
+	•	s3:GetObject
+	•	s3:PutObject
+	•	ec2:StartInstances. 
+
+Resource
+
+Resource specifies which AWS resource the statement applies to. Statements must include either Resource or NotResource.  
+
+
+Condition
+
+Condition adds extra rules like:
+	•	allow only from specific IP
+	•	allow only if MFA used
+	•	allow only for specific tag
+	•	allow only in specific region or time.  
+
+
+Types of IAM policies
+
+AWS Managed Policies
+
+These are created and maintained by AWS.
+
+Example:
+	•	AmazonS3ReadOnlyAccess
+	•	AdministratorAccess
+
+Benefit
+
+Easy to use quickly.
+
+Limitation
+
+Often broad. Not always least privilege. AWS explicitly notes that AWS managed policies may not be least-privilege for your specific use case.
+
+
+Customer Managed Policies
+
+These are created by your organization.
+
+Benefit
+
+Reusable and more controlled.
+
+Example
+
+Create custom policy:
+	•	only allow s3:GetObject
+	•	only for one bucket
+	•	only from one VPC endpoint
+	•	only if object is encrypted
+
+
+
+Inline Policies
+
+These are embedded directly into a single user, group, or role.
+
+When used
+
+For one-off permissions tightly coupled to one identity.
+
+Limitation
+
+Harder to manage at scale than customer-managed policies.
+
+
+Root user vs IAM user vs IAM role
+
+Root user
+
+Created when AWS account is created.
+Has full access.
+
+Best practice
+	•	do not use for daily work
+	•	enable MFA
+	•	keep secure
+
+IAM user
+
+Used for a person/app when needed.
+Can have long-term credentials.
+
+IAM role
+
+Best for temporary access and workloads.
+No permanent password/access key attached in the same way as users

@@ -1,0 +1,19 @@
+CITIES = [
+    {"city": "Delhi", "latitude": 28.6139, "longitude": 77.2090},
+    {"city": "Mumbai", "latitude": 19.0760, "longitude": 72.8777},
+    {"city": "Bengaluru", "latitude": 12.9716, "longitude": 77.5946},
+    {"city": "Hyderabad", "latitude": 17.3850, "longitude": 78.4867},
+    {"city": "Chennai", "latitude": 13.0827, "longitude": 80.2707},
+    {"city": "Kolkata", "latitude": 22.5726, "longitude": 88.3639},
+    {"city": "Pune", "latitude": 18.5204, "longitude": 73.8567},
+    {"city": "Ahmedabad", "latitude": 23.0225, "longitude": 72.5714},
+    {"city": "Jaipur", "latitude": 26.9124, "longitude": 75.7873},
+    {"city": "Lucknow", "latitude": 26.8467, "longitude": 80.9462},
+    {"city": "Bhopal", "latitude": 23.2599, "longitude": 77.4126},
+    {"city": "Patna", "latitude": 25.5941, "longitude": 85.1376},
+    {"city": "Ranchi", "latitude": 23.3441, "longitude": 85.3096},
+    {"city": "Bhubaneswar", "latitude": 20.2961, "longitude": 85.8245},
+    {"city": "Guwahati", "latitude": 26.1445, "longitude": 91.7362}
+]
+
+
