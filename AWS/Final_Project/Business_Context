@@ -1,0 +1,915 @@
+An e-commerce company wants one unified platform to answer:
+
+* Which products are getting high traffic but low conversion?
+* Which customers abandon carts most often?
+* What is daily revenue by country, category, and payment type?
+* How do clickstream events convert into purchases?
+* How do exchange rates affect global revenue reporting?
+* Which regions have delayed shipping or poor fulfillment signals?
+* Which campaigns bring users who browse but never buy?
+
+Services we will use
+
+* Amazon S3
+* AWS Lambda
+* AWS Glue Jobs
+* AWS Glue Crawler
+* AWS Step Functions
+* Amazon Athena
+* Amazon EventBridge / CloudWatch schedule
+* CloudWatch Logs + Alarms
+* SNS for alerts
+* optional later:
+    * DynamoDB for pipeline metadata
+    * Redshift for warehouse serving
+    * QuickSight for dashboards
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Project business context
+
+Imagine we are working for a large e-commerce company like Amazon, Flipkart, Myntra, Walmart, or any online retail company.
+
+Every day, the company gets a huge amount of data from different systems:
+
+* orders placed by customers
+* website and mobile app clickstream events
+* product catalog data
+* customer browsing activity
+* country and shipping information
+* currency exchange rates for international sales
+
+Now the business teams want answers to important questions, but the data is scattered across multiple sources and formats.
+
+That is the problem we are solving.
+
+⸻
+
+Core business problem
+
+The company is selling products online, but it has major visibility gaps.
+
+They know customers are visiting the website.
+
+They know products are being viewed.
+
+They know some people are adding products to the cart.
+
+They know some customers are buying.
+
+But they do not clearly know:
+
+* why customers are dropping before purchase
+* which products are attracting traffic but not converting
+* which customers are valuable and likely to buy again
+* which countries or regions are performing well or poorly
+* how browsing behavior turns into revenue
+* whether shipping/geography is affecting conversion
+* how much true revenue they are making after converting different currencies
+* which campaigns bring useless traffic and which bring real buyers
+
+So the company has data, but not decision-ready insights.
+
+That is the business pain.
+
+⸻
+
+Why this is a real business problem
+
+In e-commerce, success is not just about “how many orders came.”
+
+The company wants to improve:
+
+* revenue
+* conversion rate
+* customer retention
+* average order value
+* product performance
+* campaign effectiveness
+* regional expansion decisions
+
+To improve these things, they need a single analytics platform that combines all the data and tells the story of the customer journey.
+
+That is exactly what our project will do.
+
+⸻
+
+What is currently happening in the business
+
+Let’s understand how data usually exists in an e-commerce company.
+
+1. Orders data is in one system
+
+The order management system stores:
+
+* what product was purchased
+* how much was paid
+* when the order happened
+* what payment method was used
+* which country the order came from
+
+This tells us what was bought.
+
+But it does not tell us what happened before the purchase.
+
+⸻
+
+2. Clickstream data is in another system
+
+The website/app tracking system stores:
+
+* what product was viewed
+* what was searched
+* which product was added to cart
+* whether checkout started
+* what traffic source the user came from
+* which device they used
+
+This tells us customer behavior.
+
+But it does not always tell us whether behavior turned into revenue.
+
+⸻
+
+3. Product data is in another file/system
+
+The merchandising or catalog team stores:
+
+* product category
+* brand
+* selling price
+* inventory status
+
+This tells us product context.
+
+But it does not tell us how customers interacted with it.
+
+⸻
+
+4. Global business data needs enrichment
+
+If the company sells in multiple countries:
+
+* orders may come in USD, INR, EUR, GBP
+* shipping experience differs by region
+* holidays affect purchasing patterns
+
+Without enrichment:
+
+* revenue comparison is wrong
+* global reporting is inconsistent
+* business cannot fairly compare countries
+
+⸻
+
+So what is the actual gap?
+
+The company has pieces of the story, but not the full story.
+
+They can see:
+
+* orders
+* clicks
+* products
+* regions
+* currency data
+
+But these are disconnected.
+
+As a result, business teams cannot easily answer end-to-end questions like:
+
+“Customers from which traffic source viewed products, added them to cart, but did not buy?”
+
+or
+
+“Which category gets huge traffic but poor conversion?”
+
+or
+
+“Which countries look weak only because the revenue is in different currencies and not standardized?”
+
+or
+
+“Which customers browse repeatedly and are likely high-value customers?”
+
+So the project goal is to connect all these pieces into one analytics pipeline.
+
+⸻
+
+Main business objective
+
+We are trying to build a Customer 360 + Revenue Intelligence platform for e-commerce.
+
+That means we want to create one system where the business can understand:
+
+* customer behavior
+* product performance
+* conversion funnel
+* regional sales
+* revenue trends
+* operational insights
+
+all together in one place.
+
+⸻
+
+What we are trying to solve, in plain business language
+
+We are solving 6 major business problems.
+
+Problem 1: Cart abandonment
+
+This is one of the biggest problems in e-commerce.
+
+A customer:
+
+* views a product
+* adds it to cart
+* maybe even starts checkout
+* but does not complete the purchase
+
+This means the company spent money attracting the customer, but did not get revenue.
+
+Business impact
+
+* lost sales
+* wasted ad spend
+* poor customer experience
+* low conversion rate
+
+What the business wants to know
+
+* which products are most abandoned
+* which categories have high abandonment
+* whether certain countries abandon more
+* whether certain traffic sources bring low-intent users
+* whether mobile users abandon more than desktop users
+
+Our project solves this by
+
+combining clickstream and order data to identify:
+
+* add_to_cart but no purchase
+* checkout started but no completed order
+* abandonment by product, category, country, source
+
+⸻
+
+Problem 2: High traffic but low conversion products
+
+Some products get many views, but very few purchases.
+
+That is dangerous because the product may look popular, but it is not making money.
+
+Possible reasons
+
+* bad price
+* poor product description
+* wrong target audience
+* poor reviews
+* out-of-stock issue
+* shipping concern
+* misleading ad traffic
+
+Business impact
+
+* marketing money wasted
+* inventory decisions become wrong
+* product ranking becomes misleading
+
+What business wants
+
+* top viewed products with low conversion
+* category-level conversion rate
+* compare views vs carts vs purchases
+
+Our project solves this by
+
+tracking the product funnel:
+
+* product_view
+* add_to_cart
+* checkout_start
+* purchase
+
+and building product conversion KPIs.
+
+⸻
+
+Problem 3: No full customer journey visibility
+
+The company often knows only the final order.
+
+But business teams also want to know:
+
+* where the customer came from
+* what they viewed
+* how long they browsed
+* whether they abandoned first and bought later
+* whether they are repeat customers
+* whether they came from ads, search, direct traffic, or social media
+
+Business impact
+
+Without this:
+
+* marketing attribution is weak
+* retargeting is poor
+* loyalty programs are less effective
+* repeat customer strategy is incomplete
+
+Our project solves this by
+
+building a Customer 360 view that combines:
+
+* customer activity
+* session behavior
+* purchases
+* country/region
+* source/channel
+* repeat spending signals
+
+⸻
+
+Problem 4: Revenue reporting is fragmented
+
+If the company sells globally, reporting becomes messy.
+
+Example:
+
+* US orders in USD
+* Europe orders in EUR
+* India orders in INR
+
+If revenue is not converted into one common currency, business leaders cannot compare markets correctly.
+
+Business impact
+
+* wrong country performance analysis
+* wrong board-level reporting
+* hard to compare category performance globally
+
+What business wants
+
+* standardized revenue in one currency
+* daily revenue by country
+* revenue by category
+* revenue by payment type
+* average order value
+
+Our project solves this by
+
+using FX rate API data to convert all revenue into a reporting currency like USD.
+
+⸻
+
+Problem 5: Poor regional or shipping zone performance is hidden
+
+Sometimes low sales are not because the product is bad.
+
+Maybe:
+
+* delivery is slower in that region
+* shipping cost is high
+* users from certain regions face friction
+* time zone / operational issues affect purchase timing
+
+Business impact
+
+Business may blame product or campaign when the real problem is regional operations.
+
+What business wants
+
+* compare performance by country/region/shipping zone
+* understand where drop-offs are happening
+* identify low-performing geographies
+
+Our project solves this by
+
+enriching customer and order data with shipping zone / country metadata.
+
+⸻
+
+Problem 6: Marketing traffic quality is unclear
+
+A campaign may drive lots of visitors.
+
+But are those visitors buying?
+
+Maybe one source brings:
+
+* lots of clicks
+* lots of product views
+* almost no purchases
+
+Another source may bring:
+
+* fewer visitors
+* but much higher conversion
+
+Business impact
+
+* ad budgets may be wasted
+* campaign ROI may be misunderstood
+* poor channels continue to receive spend
+
+What business wants
+
+* revenue by traffic source
+* conversion by source
+* abandonment by source
+* campaign quality insights
+
+Our project solves this by
+
+linking clickstream traffic_source with purchase outcomes.
+
+⸻
+
+One simple example to understand the need
+
+Let’s say a customer named Rahul visits the site.
+
+Step 1
+
+He comes through a Google ad.
+
+Step 2
+
+He views a shoe product.
+
+Step 3
+
+He adds it to cart.
+
+Step 4
+
+He starts checkout.
+
+Step 5
+
+He leaves without buying.
+
+Now today’s systems may show:
+
+* clickstream system: Rahul added to cart
+* order system: no order
+* campaign system: ad brought one visitor
+
+But business still does not know clearly:
+
+* which product was abandoned most
+* whether ad traffic is low quality
+* whether mobile checkout is failing
+* whether this is common in Rahul’s country
+* whether this customer returned later and purchased
+
+Our project connects this story.
+
+That is the real value.
+
+⸻
+
+Final business questions this project will answer
+
+After building this project, business teams should be able to answer questions like these.
+
+Customer behavior questions
+
+* How many users viewed a product but never added to cart?
+* How many users added to cart but never purchased?
+* Which traffic sources drive actual buyers?
+* Which customers are repeat customers?
+
+Product questions
+
+* Which products are highly viewed but poorly converted?
+* Which categories have the highest conversion rate?
+* Which brands generate more revenue?
+
+Revenue questions
+
+* What is total revenue by country?
+* What is average order value by category?
+* What is payment-method-wise revenue?
+* What is global revenue in one standard currency?
+
+Regional questions
+
+* Which region has the highest abandonment?
+* Which countries are underperforming?
+* Are certain shipping zones associated with lower conversion?
+
+Funnel questions
+
+* Out of all product viewers, how many added to cart?
+* Out of cart users, how many started checkout?
+* Out of checkout users, how many completed purchase?
+
+These are real dashboard and leadership questions.
+
+⸻
+
+Who in the business will use this data
+
+This is also important.
+
+1. Marketing team
+
+Uses it to see:
+
+* traffic quality
+* channel conversion
+* campaign effectiveness
+
+2. Product team
+
+Uses it to see:
+
+* product engagement
+* poor conversion products
+* customer interaction patterns
+
+3. Sales / business team
+
+Uses it to see:
+
+* revenue trends
+* top categories
+* growth regions
+
+4. Operations / logistics team
+
+Uses it to see:
+
+* shipping-zone-level performance
+* region-level underperformance
+
+5. Leadership
+
+Uses it to see:
+
+* daily revenue
+* country-level business health
+* conversion trends
+* customer value
+
+So this project is not just technical. It supports multiple business teams.
+
+⸻
+
+Why we need a centralized data platform
+
+Because raw source systems are not good for analytics directly.
+
+Reasons:
+
+* data is in different formats
+* different teams own different systems
+* schema is inconsistent
+* one system knows behavior, another knows purchase
+* APIs are external
+* reporting is slow and manual
+
+So we need a platform that:
+
+* ingests all sources
+* standardizes them
+* enriches them
+* joins them
+* creates curated tables
+* makes them queryable for business
+
+That platform is what we are building.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Sources we will ingest
+
+1. Orders data
+
+Daily batch export from order system.
+
+Format:
+
+* CSV
+
+Examples:
+
+* order_id
+* customer_id
+* product_id
+* quantity
+* price
+* currency
+* country
+* order_status
+* payment_method
+* order_timestamp
+
+⸻
+
+2. Clickstream data
+
+Website/app behavioral events.
+
+Format:
+
+* JSON
+
+Examples:
+
+* session_id
+* customer_id
+* event_type
+* product_id
+* page
+* device_type
+* traffic_source
+* event_timestamp
+
+Events:
+
+* product_view
+* add_to_cart
+* remove_from_cart
+* checkout_start
+* purchase
+* search
+* wishlist
+
+⸻
+
+3. Product catalog / reference files
+
+Flat files from merchandising team.
+
+Format:
+
+* CSV or JSON
+
+Examples:
+
+* product_id
+* category
+* brand
+* cost_price
+* selling_price
+* inventory_status
+
+⸻
+
+4. Free APIs
+
+We enrich the data from public APIs.
+
+API A: FX rates
+
+Used to convert global order revenue into one reporting currency.
+
+API B: Country / geo / shipping zone API
+
+Used to enrich country, region, time zone, shipping zone.
+
+Optional API C: Holiday / calendar API
+
+Used to analyze holiday season sales patterns.
+
+WHY Step Function 
+-----------------
+
+many things must happen in order:
+
+* check whether files arrived
+* call APIs
+* wait for ingestion
+* validate raw data
+* trigger different Glue jobs
+* run crawler
+* validate table creation
+* send alerts if one step fails
+* retry failed steps
+* branch logic for different source types
+
+End-to-end workflow
+
+Stage 1: Trigger
+
+EventBridge starts the Step Function on a schedule.
+
+Examples:
+
+* every day at 2 AM
+* every hour for API refresh
+* separate weekly backfill flow if needed
+
+⸻
+
+Stage 2: Pre-check / control step
+
+A Lambda checks:
+
+* whether orders file exists in S3
+* whether clickstream file exists
+* whether catalog file exists
+* whether processing date is valid
+* whether this run already happened
+* whether upstream source is delayed
+
+If required files are missing:
+
+* branch to alert path
+* fail gracefully
+* notify via SNS
+
+Stage 3: API ingestion
+
+A Lambda calls:
+
+* FX rate API
+* shipping zone API
+* optional holiday API
+
+Then stores raw JSON into S3:
+
+* raw/api/fx_rates/
+* raw/api/shipping_zone/
+* raw/api/holidays/
+
+This step includes:
+
+* retries
+* timeout handling
+* malformed response handling
+* raw response archival
+
+⸻
+
+Stage 4: Raw validation gate
+
+A validation Lambda checks:
+
+* file size > 0
+* valid JSON / CSV structure
+* required columns exist
+* timestamp fields parse correctly
+* no duplicate file for same business date unless rerun
+
+If validation fails:
+
+* move to failure branch
+* log reason
+* send SNS alert
+
+⸻
+
+Stage 5: Parallel ETL branches
+
+This is where Step Functions becomes powerful.
+
+We can run ETL in parallel.
+
+Branch A: Orders + catalog
+
+Glue Job 1
+
+Branch B: Clickstream + API enrichment prep
+
+Glue Job 2
+
+Both jobs run at the same time to reduce total pipeline time.
+
+⸻
+
+Glue job design
+
+Glue Job 1: glue_orders_catalog_standardization
+
+Reads
+
+* raw/orders/csv/
+* raw/catalog/
+
+Does
+
+* schema cleanup
+* type casting
+* null handling
+* deduplication
+* joins orders with product catalog
+* standardizes timestamps and currencies
+* writes parquet to processed layer
+
+Output
+
+* processed/orders/
+* processed/catalog/
+* processed/orders_enriched/
+
+Example derived fields
+
+* order_date
+* order_hour
+* gross_amount
+* order_amount_usd
+* category
+* brand
+* processing_ts
+
+⸻
+
+Glue Job 2: glue_clickstream_api_standardization
+
+Reads
+
+* raw/clickstream/json/
+* raw/api/fx_rates/
+* raw/api/shipping_zone/
+
+Does
+
+* flatten clickstream JSON
+* standardize event timestamps
+* create funnel markers
+* enrich by geography / source / zone
+* write parquet
+
+Output
+
+* processed/clickstream/
+* processed/fx_rates/
+* processed/shipping_zone/
+
+Example derived fields
+
+* event_date
+* session_stage
+* cart_flag
+* purchase_flag
+* zone_name
+* region_name
+
+⸻
+
+Glue Job 3: glue_customer360_kpi_curated
+
+This is the most important one.
+
+Reads
+
+* processed orders
+* processed clickstream
+* processed catalog
+* processed API enrichments
+
+Does
+
+* joins all data using customer_id, product_id, country, date
+* builds customer behavior summary
+* builds product performance summary
+* builds revenue summary
+* computes final KPIs
+
+Output curated tables
+
+* curated/customer_360/
+* curated/revenue_summary/
+* curated/product_conversion_kpis/
+* curated/cart_abandonment_summary/
+
+
+s3://ecommerce-analytics-platform-dev/
+│
+├── config/
+│   └── pipeline_config.json
+│
+├── raw/
+│   ├── orders/
+│   ├── clickstream/
+│   ├── catalog/
+│   └── api/
+│       ├── fx_rates/
+│       ├── shipping_zone/
+│       └── holidays/
+│
+├── processed/
+│   ├── orders/
+│   ├── clickstream/
+│   ├── catalog/
+│   ├── fx_rates/
+│   └── shipping_zone/
+│
+├── curated/
+│   ├── customer_360/
+│   ├── revenue_summary/
+│   ├── product_conversion_kpis/
+│   └── cart_abandonment_summary/
+│
+├── failed/
+│   ├── rejected_files/
+│   └── validation_errors/
+│
+└── archive/
+    └── raw_backup/
+

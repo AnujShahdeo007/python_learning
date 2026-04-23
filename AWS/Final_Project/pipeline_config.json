@@ -1,0 +1,37 @@
+{
+  "run_date": "2026-04-20",
+  "environment": "dev",
+  "reporting_currency": "USD",
+  "bucket_name": "ecommerce-analytics-platform-dev",
+
+  "raw_orders_prefix": "raw/orders/",
+  "raw_clickstream_prefix": "raw/clickstream/",
+  "raw_catalog_prefix": "raw/catalog/",
+  "raw_fx_rates_prefix": "raw/api/fx_rates/",
+  "raw_shipping_zone_prefix": "raw/api/shipping_zone/",
+  "raw_holidays_prefix": "raw/api/holidays/",
+
+  "processed_orders_prefix": "processed/orders/",
+  "processed_clickstream_prefix": "processed/clickstream/",
+  "processed_catalog_prefix": "processed/catalog/",
+  "processed_fx_rates_prefix": "processed/fx_rates/",
+  "processed_shipping_zone_prefix": "processed/shipping_zone/",
+
+  "curated_customer_360_prefix": "curated/customer_360/",
+  "curated_revenue_summary_prefix": "curated/revenue_summary/",
+  "curated_product_conversion_kpis_prefix": "curated/product_conversion_kpis/",
+  "curated_cart_abandonment_summary_prefix": "curated/cart_abandonment_summary/",
+
+  "failed_rejected_files_prefix": "failed/rejected_files/",
+  "failed_validation_errors_prefix": "failed/validation_errors/",
+  "archive_raw_backup_prefix": "archive/raw_backup/",
+
+  "fx_api_enabled": true,
+  "shipping_api_enabled": true,
+  "holiday_api_enabled": false,
+
+  "crawler_name": "ecommerce-curated-crawler",
+  "glue_database": "ecommerce_analytics_db",
+  "athena_output_bucket": "ecommerce-athena-results-dev",
+  "athena_output_prefix": "query-results/"
+}
