@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-11T17:11:03.064526+00:00",
+  "holidays": [
+    {
+      "country": "India",
+      "holiday_name": "Republic Day",
+      "holiday_date": "2026-01-26"
+    },
+    {
+      "country": "India",
+      "holiday_name": "Independence Day",
+      "holiday_date": "2026-08-15"
+    },
+    {
+      "country": "India",
+      "holiday_name": "Diwali",
+      "holiday_date": "2026-11-08"
+    },
+    {
+      "country": "USA",
+      "holiday_name": "Thanksgiving",
+      "holiday_date": "2026-11-26"
+    },
+    {
+      "country": "Global",
+      "holiday_name": "Christmas",
+      "holiday_date": "2026-12-25"
+    }
+  ]
+}

@@ -1,0 +1,6002 @@
+[
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "EST",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_3",
+    "timezone": "CET",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "EST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 2
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_1",
+    "timezone": "UTC",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 4
+  },
+  {
+    "country": "Germany",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "UTC",
+    "delivery_sla_days": 6
+  },
+  {
+    "country": "Canada",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 5
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_4",
+    "timezone": "EST",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "USA",
+    "shipping_zone": "ZONE_2",
+    "timezone": "CET",
+    "delivery_sla_days": 7
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "UTC",
+    "delivery_sla_days": 10
+  },
+  {
+    "country": "India",
+    "shipping_zone": "ZONE_3",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_2",
+    "timezone": "IST",
+    "delivery_sla_days": 3
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_4",
+    "timezone": "IST",
+    "delivery_sla_days": 8
+  },
+  {
+    "country": "UK",
+    "shipping_zone": "ZONE_1",
+    "timezone": "IST",
+    "delivery_sla_days": 9
+  }
+]
